@@ -1,16 +1,20 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).  
 
 ---
 
 ## [v1.0.2] - 2025-09-08
-- Added visual badges to README:
-  - MIT License
-  - Built with Solidity
-  - ERC-20 Compliant
-  - Security Policy
-- Enhanced repository professionalism and visibility.
+### Added
+- README.md updated to include **Deployment & Testnet Contract Address** for $NADD
+- Binance Smart Chain Testnet contract address: `0x37341372B5D466Fc7381905cCaC683c64580512B`
+- Clarification that NADD is currently on Testnet pending Bank of Namibia sandbox integration
+
+### Changed
+- README.md refined to highlight testnet status and safe interaction guidelines
+
+### Fixed
+- Minor formatting issues in README.md related to badges and headings
 
 ---
 
@@ -29,7 +33,6 @@ All notable changes to this project will be documented in this file. The format 
 ---
 
 ## [v1.0.0] - 2025-09-08
-
 ### Added
 - Full enterprise-grade Whitepaper for NADD
 - Smart contract deployed on BSC Testnet: `0x37341372B5D466Fc7381905cCaC683c64580512B`
