@@ -1,0 +1,41 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [v1.0.1] - 2025-09-08
+- Initial deployment to BSC Testnet
+- NADD token smart contract (`NADDtoken.sol`) added
+- Deployment script (`deploy.ts`) added
+- Whitepaper (`WHITEPAPER.md`) added
+- ECONOMY_OF_NADD.md added with market and economic analysis
+- Hardhat configuration (`hardhat.config.ts`) added
+- Environment example (`.env.example`) added
+- README.md updated with full documentation
+- LICENSE.md updated with MIT license and copyright
+- SECURITY.md added outlining vulnerability reporting and policy
+
+---
+
+## [v1.0.0] - 2025-09-07
+
+### Added
+- Full enterprise-grade Whitepaper for NADD
+- Smart contract deployed on BSC Testnet: `0x37341372B5D466Fc7381905cCaC683c64580512B`
+- Scripts for deployment (`deploy.ts`)
+- Tokenomics and market analysis document (`ECONOMY_OF_NADD.md`)
+- Raw markdown copies of contracts and deployment scripts added for transparency
+- README.md and repository structure documentation
+- SECURITY.md for security policy and reporting
+- License file updated for MIT license
+- .env.example template added for configuration
+- Tags and repository topics added for discoverability
+
+### Changed
+- README.md updated to reflect current BSC Testnet deployment and repository files
+- License section updated with proper copyright and MIT reference
+
+### Fixed
+- Hardhat TypeScript configuration errors resolved
+- Smart contract artifact naming conflicts resolved (`NADDToken`)
