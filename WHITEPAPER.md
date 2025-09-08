@@ -10,6 +10,11 @@ NADD integrates regulatory-compliant smart contracts with existing banking infra
 
 The token is fully backed by reserve assets in collaboration with the Namibia Bank sandbox, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
 
+Currently, NADD has been successfully deployed on **Binance Smart Chain (BSC) Testnet** at address:  
+**`0x37341372B5D466Fc7381905cCaC683c64580512B`**  
+
+This testnet deployment allows developers, regulators, and partners to perform comprehensive testing, including wallet integration, minting, burning, and reserve verification, without impacting real funds. Once fully validated in the sandbox and after passing all compliance checks with the Bank of Namibia, NADD will proceed to mainnet deployment with production-ready integrations.
+
 The whitepaper details the technical architecture, token economics, governance, social impact, deployment roadmap, and risk mitigation strategies for NADD. It also highlights the Creator’s background in blockchain development and fintech innovation, showcasing prior successes including CillarCoin ($CILLAR), AFRX Security Token, $ENGLISH MEMECOIN, and Abba App.  
 
 NADD represents a pivotal step for Namibia towards a digital economy, financial inclusion, and global blockchain adoption.
@@ -74,6 +79,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 
 ### 4.1 Blockchain and Smart Contracts
 - **Blockchain Network:** Binance Smart Chain (BSC) Testnet initially, moving to mainnet after sandbox approvals.  
+- **Testnet Deployment Address:** `0x37341372B5D466Fc7381905cCaC683c64580512B`  
 - **Smart Contracts:** Role-based contracts implementing minting, burning, pausing, auditing, and custodial functionalities.  
 - **EIP-712 Integration:** Enables secure off-chain authorization for deposits and transfers.  
 - **Access Control:**  
@@ -149,7 +155,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 **Phase 1: Development & Testing**  
 - Complete NADD smart contracts and backend infrastructure.  
 - Conduct internal audits and security tests.  
-- Deploy on Binance Smart Chain Testnet.  
+- Deploy on Binance Smart Chain Testnet at `0x37341372B5D466Fc7381905cCaC683c64580512B`.  
 
 **Phase 2: Sandbox Deployment**  
 - Integrate with Bank of Namibia sandbox.  
@@ -157,7 +163,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 - Validate reserve attestation and EIP-712 flows.  
 
 **Phase 3: Mainnet Deployment**  
-- Deploy NADD on production blockchain.  
+- Deploy NADD on production blockchain after sandbox approval.  
 - Launch Abba App integration for P2P payments and merchant services.  
 - Begin pilot programs with local banks and government.  
 
@@ -165,6 +171,11 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 - Introduce programmable financial products (loans, interest-bearing NADD).  
 - Partner with regional businesses for cross-border payments.  
 - Explore integration with CillarCoin ($CILLAR) for multi-token ecosystem.  
+
+**Implications of Testnet Deployment:**  
+- Developers and regulators can fully test token functionality without risk to real funds.  
+- Smart contract interactions, wallet integrations, and reserve verifications are validated.  
+- Feedback and bug reports from the testnet phase inform final mainnet release.  
 
 ---
 
@@ -207,7 +218,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
   - **AFRX Security Token:** ERC-3643 compliant, U.S. Securities Act Regulation D Rule 506(c) and S compliant.  
   - **$ENGLISH MEMECOIN:** Deployed on BNB Smart Chain.  
   - **Abba App:** Peer-to-peer mobile payment platform for Africa and global users, available on Google Play.  
-- LinkedIn: [https://linkedin.com/in/simonkapenda](https://linkedin.com/in/simonkapenda)  
+- LinkedIn: [https://linkedin.com/in/simonkapenda](https://linkedin.com/in/simonkapenda)
 
 ---
 
