@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
+## [v1.0.2] - 2025-09-08
+- Added visual badges to README:
+  - MIT License
+  - Built with Solidity
+  - ERC-20 Compliant
+  - Security Policy
+- Enhanced repository professionalism and visibility.
+
+---
+
 ## [v1.0.1] - 2025-09-08
 - Initial deployment to BSC Testnet
 - NADD token smart contract (`NADDtoken.sol`) added
@@ -18,7 +28,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [v1.0.0] - 2025-09-07
+## [v1.0.0] - 2025-09-08
 
 ### Added
 - Full enterprise-grade Whitepaper for NADD
