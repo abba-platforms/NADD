@@ -5,6 +5,16 @@
 ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) 
 [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 
+## Deployment & Contract Address
+
+The **Namibia Digital Dollar (NADD)** is currently deployed on **Binance Smart Chain Testnet** for sandbox testing and validation.  
+
+**BSC Testnet Contract Address:** `0x37341372B5D466Fc7381905cCaC683c64580512B`
+
+You can interact with the token using compatible wallets (e.g., MetaMask) and integrate it into the **Abba App** for testing purposes.  
+
+> ⚠️ Note: This is a testnet deployment. NADD is **not yet live on mainnet** and should not be used for real transactions.
+
 ----------
 
 ## Executive Summary
