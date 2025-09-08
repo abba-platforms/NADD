@@ -8,7 +8,7 @@ The **Namibia Digital Dollar (NADD)** is a blockchain-native, digitally programm
 
 NADD integrates regulatory-compliant smart contracts with existing banking infrastructure, providing a secure, transparent, and efficient digital currency. By leveraging programmable blockchain technology, NADD offers real-time settlement, automated compliance, and auditability.  
 
-The token is fully backed by reserve assets in collaboration with the Bank of Namibia sandbox, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
+The token is fully backed by reserve assets in collaboration with the Namibia Bank sandbox, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
 
 The whitepaper details the technical architecture, token economics, governance, social impact, deployment roadmap, and risk mitigation strategies for NADD. It also highlights the Creator’s background in blockchain development and fintech innovation, showcasing prior successes including CillarCoin ($CILLAR), AFRX Security Token, $ENGLISH MEMECOIN, and Abba App.  
 
@@ -59,7 +59,7 @@ NADD represents a significant step forward in digital finance, integrating regul
 **Ticker:** NADD  
 **Blockchain Standard:** ERC-20 & extensions for compliance (EIP-712 signatures, role-based access)  
 **Peg:** 1 NADD = 1 NAD  
-**Type:** Central Bank-backed stablecoin (sandbox deployment)  
+**Type:** Bank-backed stablecoin (sandbox deployment)  
 **Primary Use Cases:**  
 - Digital payments and P2P transfers  
 - Remittances  
@@ -104,7 +104,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 ## 5. Token Economics
 
 **Pegging and Backing:** 1 NADD = 1 NAD  
-- Fully backed by reserves in the Bank of Namibia sandbox.  
+- Fully backed by reserves in the Namibia bank sandbox.  
 - Periodic audits ensure transparency.  
 
 **Supply Model:**  
@@ -126,7 +126,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 
 ## 6. Governance and Compliance
 
-- **Sandbox Supervision:** Bank of Namibia oversight.  
+- **Sandbox Supervision:** Seeking Bank of Namibia oversight.  
 - **Regulatory Alignment:** KYC/AML compliance via Abba App integration.  
 - **Roles and Access:** Admin, minter, burner, pauser, auditor, custodian  
 - **Audit Reports:** Publicly available to ensure trust.  
