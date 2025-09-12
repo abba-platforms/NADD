@@ -1,17 +1,14 @@
 # Namibia Digital Dollar (NADD)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) 
-![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) 
-![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) 
-[![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 
 ## Deployment & Contract Address
 
-The **Namibia Digital Dollar (NADD)** is currently deployed on **Binance Smart Chain Testnet** for sandbox testing and validation.  
+The **Namibia Digital Dollar (NADD)** is currently deployed on **Binance Smart Chain Testnet** for sandbox testing and validation.
 
 **BSC Testnet Contract Address:** `0x37341372B5D466Fc7381905cCaC683c64580512B`
 
-You can interact with the token using compatible wallets (e.g., MetaMask) and integrate it into the **Abba App** for testing purposes.  
+You can interact with the token using compatible wallets (e.g., MetaMask) and integrate it into the **Abba App** for testing purposes.
 
 > ⚠️ Note: This is a testnet deployment. NADD is **not yet live on mainnet** and should not be used for real transactions.
 
@@ -28,6 +25,26 @@ This repository contains the project’s technical artifacts, deployment scripts
 ## Overview
 
 NADD is built for safety, compliance, and programmability. It integrates with the **Abba App** to deliver mobile-first payments, merchant acceptance, and remittances. NADD is intended to be tested in the **Bank of Namibia Sandbox** before any mainnet deployment. The smart contracts are developed using OpenZeppelin patterns and follow strict role-based controls to limit privileged operations (mint, burn, pause).
+
+----------
+
+## NADD Trust Framework
+
+For a **comprehensive reference** covering NADD’s security, compliance, governance, reserves, economic integration, and lessons from successful private stablecoins, see the **NADD Trust Framework (v1.4)**:
+
+**[NADD_TRUST_FRAMEWORK.md](./NADD_TRUST_FRAMEWORK.md)**
+
+> This document is intended for internal review, regulatory transparency, and technical reference for developers, auditors, and partners.
+
+It includes:
+
+-   Expanded monetary context (Namibia’s M2, currency circulation, GDP, population)
+-   Case studies from USDT, USDC, and other private stablecoins
+-   Key Features and Technology Stack for security and compliance
+-   Regulatory alignment with Bank of Namibia DPI, AML, and FATF standards
+-   Proof-of-Reserves, attestation, and custodian redundancy
+-   Governance, operational controls, and user protection measures
+-   Economic integration and cross-border trade use cases
 
 ----------
 
@@ -158,6 +175,7 @@ If you discover a security issue:
 -   `./` — unit & integration tests (mocha/chai)
 -   `./` — formal docs, diagrams, regulatory artifacts
 -   `WHITEPAPER.md` — full whitepaper
+-   `NADD_TRUST_FRAMEWORK.md` — security and compliance framework
 -   `ECONOMY_OF_NADD.md` — economic analysis and market study
 -   `.env.example` — environment template (do not commit private keys)
 -   `hardhat.config.ts` — Hardhat config
