@@ -30,9 +30,9 @@ NADD is built for safety, compliance, and programmability. It integrates with th
 
 ## NADD Trust Framework
 
-For a **comprehensive reference** covering NADD’s security, compliance, governance, reserves, economic integration, and lessons from successful private stablecoins, see the **NADD Trust Framework (v1.4)**:
+For a **comprehensive reference** covering NADD’s security, compliance, governance, reserves, economic integration, and lessons from successful private stablecoins, see the **NADD Trust Framework (v1.0)**:
 
-**[NADD_TRUST_FRAMEWORK.md](./NADD_TRUST_FRAMEWORK.md)**
+**[NADD_TRUST_FRAMEWORK](./NADD_TRUST_FRAMEWORK.md)**
 
 > This document is intended for internal review, regulatory transparency, and technical reference for developers, auditors, and partners.
 
