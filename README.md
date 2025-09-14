@@ -160,8 +160,6 @@ If you discover a security issue:
 3.  Provide a clear, reproducible test case.
 4.  The team will acknowledge within 48 hours and work to remediate.
 
-(If you want, I can draft a full `SECURITY.md` with contact and PGP key instructions.)
-
 ----------
 
 ## Repository Structure
