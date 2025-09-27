@@ -14,6 +14,7 @@ import "@openzeppelin/contracts-upgradeable/utils/cryptography/draft-EIP712Upgra
 contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable, UUPSUpgradeable, EIP712Upgradeable {
     using ECDSAUpgradeable for bytes32;
 
+    // Roles
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
@@ -21,14 +22,14 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
     bytes32 public constant CUSTODIAN_ROLE = keccak256("CUSTODIAN_ROLE");
     bytes32 public constant SUBMITTER_ROLE = keccak256("SUBMITTER_ROLE");
 
-    /// @notice Prevents reuse of deposit certificates (replay attacks)
+    /// @notice Replay protection for deposit certificates
     mapping(bytes32 => bool) public usedDepositCert;
 
-    /// @notice Tracks daily mint amounts per address
+    /// @notice Daily mint tracking
     mapping(address => uint256) public dailyMinted;
     mapping(address => uint256) public lastMintTimestamp;
 
-    uint256 public constant MAX_MINT_PER_DAY = 1_000_000 * 1e18; // Example: 1M NADD/day per address
+    uint256 public constant MAX_MINT_PER_DAY = 1_000_000 * 1e18;
     uint256 public constant NONCE_EXPIRY = 1 hours;
 
     bytes32 private constant DEPOSIT_CERT_TYPEHASH = keccak256(
@@ -45,12 +46,12 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
     }
 
     struct Attestation {
-        address submittedBy;
-        uint64 timestamp;
-        uint256 totalReserves;
-        bytes32 reportHash;
-        bytes32 uriHash;
-        bytes signatureHash;
+        address submittedBy;     // 20 bytes
+        uint64 timestamp;        // 8 bytes
+        uint256 totalReserves;   // 32 bytes
+        bytes32 reportHash;      // 32 bytes
+        bytes32 uriHash;         // 32 bytes
+        bytes signatureHash;     // dynamic length
     }
 
     Attestation[] private attestations;
@@ -66,12 +67,16 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         _disableInitializers();
     }
 
+    /**
+     * @notice Initializes the contract
+     * @dev Uses domain versioning for EIP-712 resilience
+     */
     function initialize(string memory name_, string memory symbol_, address admin) public initializer {
         __ERC20_init(name_, symbol_);
         __Pausable_init();
         __AccessControl_init();
         __UUPSUpgradeable_init();
-        __EIP712_init("Namibia Digital Dollar", "1");
+        __EIP712_init("Namibia Digital Dollar", "1.0"); // Version added
 
         _setupRole(DEFAULT_ADMIN_ROLE, admin);
         _setupRole(MINTER_ROLE, admin);
@@ -92,14 +97,13 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         require(cert.amount > 0, "NADD: amount zero");
         require(cert.beneficiary != address(0), "NADD: invalid beneficiary");
         require(!usedDepositCert[fiatRefHash], "NADD: deposit cert used");
-        require(cert.depositTimestamp <= block.timestamp && block.timestamp - cert.depositTimestamp <= NONCE_EXPIRY, "NADD: invalid or expired timestamp");
+        require(cert.depositTimestamp <= block.timestamp && block.timestamp - cert.depositTimestamp <= NONCE_EXPIRY, "NADD: expired timestamp");
 
-        // Daily mint limit
         if (block.timestamp - lastMintTimestamp[cert.beneficiary] > 1 days) {
             dailyMinted[cert.beneficiary] = 0;
             lastMintTimestamp[cert.beneficiary] = block.timestamp;
         }
-        require(dailyMinted[cert.beneficiary] + cert.amount <= MAX_MINT_PER_DAY, "NADD: daily mint limit exceeded");
+        require(dailyMinted[cert.beneficiary] + cert.amount <= MAX_MINT_PER_DAY, "NADD: daily limit exceeded");
 
         bytes32 structHash = keccak256(
             abi.encode(
@@ -142,7 +146,6 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         super._beforeTokenTransfer(from, to, amount);
     }
 
-    /// @notice Submit reserve attestation
     function submitAttestation(bytes32 reportHash, uint256 totalReserves, string calldata uri, bytes calldata attestationSignature) external onlyRole(SUBMITTER_ROLE) returns (uint256) {
         require(totalReserves > 0, "ReserveOracle: totalReserves zero");
         require(!submittedReports[reportHash], "ReserveOracle: duplicate report");
@@ -152,19 +155,18 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         address recovered = ECDSAUpgradeable.recover(attestationDigest, attestationSignature);
         require(hasRole(AUDITOR_ROLE, recovered), "ReserveOracle: invalid attestation signature");
 
-        Attestation memory a = Attestation({
+        attestations.push(Attestation({
             submittedBy: msg.sender,
             timestamp: uint64(block.timestamp),
             totalReserves: totalReserves,
             reportHash: reportHash,
             uriHash: uriHash,
             signatureHash: attestationDigest
-        });
+        }));
 
-        attestations.push(a);
         submittedReports[reportHash] = true;
         uint256 idx = attestations.length - 1;
-        emit AttestationSubmitted(idx, msg.sender, reportHash, totalReserves, uriHash, a.timestamp);
+        emit AttestationSubmitted(idx, msg.sender, reportHash, totalReserves, uriHash, uint64(block.timestamp));
         return idx;
     }
 
@@ -190,13 +192,16 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         return range;
     }
 
-    /// @notice Upgrade authorization with timelock multisig requirement
     function _authorizeUpgrade(address newImplementation) internal override onlyRole(DEFAULT_ADMIN_ROLE) {
-        // In production, integrate timelock here
+        // Timelock integration recommended for production
     }
 
-    /// @notice Creator of the token
     function creator() external pure returns (string memory) {
         return "Simon Kapenda";
     }
+
+    // Security Rationale:
+    // - Roles separated for minting, burning, pausing, and attestation to reduce risk.
+    // - Timelock recommended for upgrades and role changes.
+    // - Domain versioning added for EIP-712.
 }
