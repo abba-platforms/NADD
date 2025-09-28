@@ -165,10 +165,9 @@ If you discover a security issue:
 ## Repository Structure
 
 -   `contracts/` — Solidity contracts
-    -   `NADDtoken.sol` (ERC-20 + EIP-712 deposit certificate verification + role-based control)
-    -   `ReserveAttestationOracle.sol` (attestation storage & indexing)
+    -   `NADD.sol` (ERC-20 + EIP-712 deposit certificate verification + role-based control)
 -   `scripts/` — deploy & utility scripts (Hardhat)
-    -   `deploy.ts` (deploy contracts, set initial roles)
+    -   `deploy.cjs` (deploy contracts, set initial roles)
     -   `sign-and-build-calldata.ts` (helper for producing deposit certs)
 -   `./` — unit & integration tests (mocha/chai)
 -   `./` — formal docs, diagrams, regulatory artifacts
@@ -176,7 +175,7 @@ If you discover a security issue:
 -   `NADD_TRUST_FRAMEWORK.md` — security and compliance framework
 -   `ECONOMY_OF_NADD.md` — economic analysis and market study
 -   `.env.example` — environment template (do not commit private keys)
--   `hardhat.config.ts` — Hardhat config
+-   `hardhat.config.cjs` — Hardhat config
 -   `LICENSE` — MIT license text and copyright
 -   `SECURITY.md` — responsible disclosure instructions (recommended)
 -   `.github/workflows/` — CI (optional): compile/test checks
