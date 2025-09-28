@@ -10,8 +10,8 @@ NADD integrates regulatory-compliant smart contracts with existing banking infra
 
 The token is fully backed by reserve assets in collaboration with the Namibia Bank sandbox, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
 
-Currently, NADD has been successfully deployed on **Binance Smart Chain (BSC) Testnet** at address:  
-**`0x37341372B5D466Fc7381905cCaC683c64580512B`**  
+Currently, NADD has been successfully deployed and verified on **Binance Smart Chain (BSC) Testnet** at address:  
+**`0x68579fce5666e93B05784A3e7219D0C294D6F70B`**  
 
 This testnet deployment allows developers, regulators, and partners to perform comprehensive testing, including wallet integration, minting, burning, and reserve verification, without impacting real funds. Once fully validated in the sandbox and after passing all compliance checks with the Bank of Namibia, NADD will proceed to mainnet deployment with production-ready integrations.
 
@@ -79,7 +79,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 
 ### 4.1 Blockchain and Smart Contracts
 - **Blockchain Network:** Binance Smart Chain (BSC) Testnet initially, moving to mainnet after sandbox approvals.  
-- **Testnet Deployment Address:** `0x37341372B5D466Fc7381905cCaC683c64580512B`  
+- **Testnet Deployment Address:** `0x68579fce5666e93B05784A3e7219D0C294D6F70B`  
 - **Smart Contracts:** Role-based contracts implementing minting, burning, pausing, auditing, and custodial functionalities.  
 - **EIP-712 Integration:** Enables secure off-chain authorization for deposits and transfers.  
 - **Access Control:**  
@@ -155,7 +155,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 **Phase 1: Development & Testing**  
 - Complete NADD smart contracts and backend infrastructure.  
 - Conduct internal audits and security tests.  
-- Deploy on Binance Smart Chain Testnet at `0x37341372B5D466Fc7381905cCaC683c64580512B`.  
+- Deploy on Binance Smart Chain Testnet at `0x68579fce5666e93B05784A3e7219D0C294D6F70B`.  
 
 **Phase 2: Sandbox Deployment**  
 - Integrate with Bank of Namibia sandbox.  
