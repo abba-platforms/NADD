@@ -4,6 +4,36 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.5] - 2025-09-28
+
+### Added
+
+-   Deployed new version of **NADD.sol** on Binance Smart Chain Testnet.
+-   Verified implementation contract on BscScan.
+-   Updated README.md and WHITEPAPER.md with latest deployed contract addresses.
+-   Added deployment verification script (`verify.cjs`).
+-   Added detailed commit history for latest fixes and deployment process.
+
+### Changed
+
+-   Updated Hardhat configuration (`hardhat.config.cjs`) to reflect Solidity v0.8.21 and proper EVM settings.
+-   Removed Sepolia network entirely from configuration.
+-   Updated deployment script (`deploy.cjs`) to resolve proxy deployment and initialization issues.
+-   Updated contract initialization parameters to include `name`, `symbol`, and `admin` address.
+-   README.md updated to clearly show the active NADD contract address for wallet addition and testing.
+
+### Fixed
+
+-   Resolved deployment errors including:
+    -   `nadd.deployed is not a function`
+    -   Missing initializer arguments for proxy deployment
+    -   Undefined proxy address after deployment
+    -   Network configuration mismatches
+-   Fixed `.env` usage to ensure proper loading of environment variables.
+-   Fixed verification script error requiring `NADD_IMPLEMENTATION` variable.
+
+----------
+
 ## [v1.0.4] - 2025-09-12
 
 ### Added
