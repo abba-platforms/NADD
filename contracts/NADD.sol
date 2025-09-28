@@ -46,12 +46,12 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
     }
 
     struct Attestation {
-        address submittedBy;     // 20 bytes
         uint64 timestamp;        // 8 bytes
+        address submittedBy;     // 20 bytes
         uint256 totalReserves;   // 32 bytes
         bytes32 reportHash;      // 32 bytes
         bytes32 uriHash;         // 32 bytes
-        bytes signatureHash;     // dynamic length
+        bytes32 signatureHash;   // 32 bytes (fixed length for efficiency)
     }
 
     Attestation[] private attestations;
@@ -70,13 +70,16 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
     /**
      * @notice Initializes the contract
      * @dev Uses domain versioning for EIP-712 resilience
+     * @param name_ Token name
+     * @param symbol_ Token symbol
+     * @param admin Admin address with all roles
      */
     function initialize(string memory name_, string memory symbol_, address admin) public initializer {
         __ERC20_init(name_, symbol_);
         __Pausable_init();
         __AccessControl_init();
         __UUPSUpgradeable_init();
-        __EIP712_init("Namibia Digital Dollar", "1.0"); // Version added
+        __EIP712_init("Namibia Digital Dollar", "1.0");
 
         _setupRole(DEFAULT_ADMIN_ROLE, admin);
         _setupRole(MINTER_ROLE, admin);
@@ -87,7 +90,13 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         _setupRole(SUBMITTER_ROLE, admin);
     }
 
-    /// @notice Mint tokens with a valid deposit certificate
+    /**
+     * @notice Mint tokens with a valid deposit certificate
+     * @param cert DepositCertificate struct
+     * @param custodianSignature Custodian’s EIP-712 signature
+     * @param fiatRefHash Hash of fiat reference
+     * @param fiatRef Fiat reference description
+     */
     function mintWithCert(
         DepositCertificate calldata cert,
         bytes calldata custodianSignature,
@@ -128,7 +137,19 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         emit Minted(cert.beneficiary, cert.amount, fiatRefHash, fiatRef, recovered);
     }
 
-    function burnWithCert(address from, uint256 amount, bytes32 fiatRefHash, string calldata fiatRef) external onlyRole(BURNER_ROLE) whenNotPaused {
+    /**
+     * @notice Burn tokens with a valid certificate
+     * @param from Address to burn from
+     * @param amount Amount to burn
+     * @param fiatRefHash Fiat reference hash
+     * @param fiatRef Fiat reference description
+     */
+    function burnWithCert(
+        address from,
+        uint256 amount,
+        bytes32 fiatRefHash,
+        string calldata fiatRef
+    ) external onlyRole(BURNER_ROLE) whenNotPaused {
         require(amount > 0, "NADD: amount zero");
         _burn(from, amount);
         emit Burned(from, amount, fiatRefHash, fiatRef);
@@ -146,18 +167,34 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
         super._beforeTokenTransfer(from, to, amount);
     }
 
-    function submitAttestation(bytes32 reportHash, uint256 totalReserves, string calldata uri, bytes calldata attestationSignature) external onlyRole(SUBMITTER_ROLE) returns (uint256) {
+    /**
+     * @notice Submit a reserve attestation
+     * @param reportHash The hash of the attestation report
+     * @param totalReserves Total reserves reported
+     * @param uri URI pointing to attestation
+     * @param attestationSignature Signature of the attestation
+     * @return Index of stored attestation
+     */
+    function submitAttestation(
+        bytes32 reportHash,
+        uint256 totalReserves,
+        string calldata uri,
+        bytes calldata attestationSignature
+    ) external onlyRole(SUBMITTER_ROLE) returns (uint256) {
         require(totalReserves > 0, "ReserveOracle: totalReserves zero");
         require(!submittedReports[reportHash], "ReserveOracle: duplicate report");
 
         bytes32 uriHash = keccak256(bytes(uri));
-        bytes32 attestationDigest = keccak256(abi.encodePacked(reportHash, totalReserves, uriHash));
+        bytes32 attestationDigest = keccak256(
+            abi.encodePacked(reportHash, totalReserves, uriHash)
+        );
+
         address recovered = ECDSAUpgradeable.recover(attestationDigest, attestationSignature);
-        require(hasRole(AUDITOR_ROLE, recovered), "ReserveOracle: invalid attestation signature");
+        require(hasRole(AUDITOR_ROLE, recovered), "ReserveOracle: invalid signature");
 
         attestations.push(Attestation({
-            submittedBy: msg.sender,
             timestamp: uint64(block.timestamp),
+            submittedBy: msg.sender,
             totalReserves: totalReserves,
             reportHash: reportHash,
             uriHash: uriHash,
@@ -166,6 +203,7 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
 
         submittedReports[reportHash] = true;
         uint256 idx = attestations.length - 1;
+
         emit AttestationSubmitted(idx, msg.sender, reportHash, totalReserves, uriHash, uint64(block.timestamp));
         return idx;
     }
@@ -199,9 +237,4 @@ contract NADD is ERC20Upgradeable, PausableUpgradeable, AccessControlUpgradeable
     function creator() external pure returns (string memory) {
         return "Simon Kapenda";
     }
-
-    // Security Rationale:
-    // - Roles separated for minting, burning, pausing, and attestation to reduce risk.
-    // - Timelock recommended for upgrades and role changes.
-    // - Domain versioning added for EIP-712.
 }
