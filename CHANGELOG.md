@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [v1.0.5] - 2025-09-28
 
+### Changed
+- Renamed contract file from `NADDtoken.sol` to `NADD.sol` for clarity and consistency.
+- Renamed deployment script from `scripts/deploy.ts` to `scripts/deploy.cjs` to align with CommonJS requirements and improve Hardhat compatibility.
+
+----------
+
+## [v1.0.5] - 2025-09-28
+
 ### Added
 
 -   Deployed new version of **NADD.sol** on Binance Smart Chain Testnet.
