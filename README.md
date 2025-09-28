@@ -4,9 +4,9 @@
 
 ## Deployment & Contract Address
 
-The **Namibia Digital Dollar (NADD)** is currently deployed on **Binance Smart Chain Testnet** for sandbox testing and validation.
+The **Namibia Digital Dollar (NADD)** is currently deployed and verified on **Binance Smart Chain Testnet** for sandbox testing and validation.
 
-**BSC Testnet Contract Address:** `0x37341372B5D466Fc7381905cCaC683c64580512B`
+**BSC Testnet Verified Contract Address:** `0x68579fce5666e93B05784A3e7219D0C294D6F70B`
 
 You can interact with the token using compatible wallets (e.g., MetaMask) and integrate it into the **Abba App** for testing purposes.
 
