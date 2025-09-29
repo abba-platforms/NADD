@@ -26,6 +26,32 @@ This repository contains the project’s technical artifacts, deployment scripts
 
 NADD is built for safety, compliance, and programmability. It integrates with the **Abba App** to deliver mobile-first payments, merchant acceptance, and remittances. NADD is intended to be tested in the **Bank of Namibia Sandbox** before any mainnet deployment. The smart contracts are developed using OpenZeppelin patterns and follow strict role-based controls to limit privileged operations (mint, burn, pause).
 
+📖 Read the full WHITEPAPER here: [WHITEPAPER.md](./WHITEPAPER.md)
+
+----------
+
+## 🏛 Governance Charter
+
+The **NADD Governance Charter** establishes the framework for the issuance, operation, compliance, and reserve management of the Namibia Digital Dollar ($NADD).  
+It sets out principles of transparency, accountability, peg stability, and alignment with Bank of Namibia standards.
+
+📖 Read the full Charter here: [NADD_GOVERNANCE_CHARTER.md](./NADD_GOVERNANCE_CHARTER.md)
+
+---
+
+### 📌 Key Elements of the Charter
+
+| **Category**             | **Highlights**                                                                 |
+|---------------------------|-------------------------------------------------------------------------------|
+| **Governance Oversight** | NADD Governance Council ensures transparency, accountability, and compliance. |
+| **Reserve Management**   | 1:1 reserves in custodian accounts with Bank of Namibia–licensed banks.       |
+| **Peg Stability**        | Real-time peg tracking, with deviations >0.5% disclosed publicly.              |
+| **Compliance**           | AML/KYC adherence, quarterly reports, open-source contracts.                   |
+| **Risk Management**      | Risk Committee oversight, incident response protocols, public archive.        |
+| **Dispute Resolution**   | Internal resolution → mediation → binding arbitration under Namibian law.     |
+| **Transparency**         | Monthly supply/reserve reports, quarterly audits, annual compliance reports.  |
+| **Ethical Principles**   | Fairness, inclusivity, financial integrity, financial inclusion.              |
+
 ----------
 
 ## NADD Trust Framework
@@ -138,9 +164,47 @@ It includes:
 -   Admin powers should be restricted; prefer time-locked governance proposals and multi-sig signoffs for major changes.
 -   All attestations and mint/burn events are viewable on-chain for auditability.
 
+### 🏛 Governance Charter
+
+The **NADD Governance Charter** establishes the framework for the issuance, operation, compliance, and reserve management of the Namibia Digital Dollar ($NADD).  
+It sets out principles of transparency, accountability, peg stability, and alignment with Bank of Namibia standards.
+
+📖 Read the full Charter here: [NADD_GOVERNANCE_CHARTER.md](./NADD_GOVERNANCE_CHARTER.md)
+
+---
+
+### 📌 Key Elements of the Charter
+
+| **Category**             | **Highlights**                                                                 |
+|---------------------------|-------------------------------------------------------------------------------|
+| **Governance Oversight** | NADD Governance Council ensures transparency, accountability, and compliance. |
+| **Reserve Management**   | 1:1 reserves in custodian accounts with Bank of Namibia–licensed banks.       |
+| **Peg Stability**        | Real-time peg tracking, with deviations >0.5% disclosed publicly.              |
+| **Compliance**           | AML/KYC adherence, quarterly reports, open-source contracts.                   |
+| **Risk Management**      | Risk Committee oversight, incident response protocols, public archive.        |
+| **Dispute Resolution**   | Internal resolution → mediation → binding arbitration under Namibian law.     |
+| **Transparency**         | Monthly supply/reserve reports, quarterly audits, annual compliance reports.  |
+| **Ethical Principles**   | Fairness, inclusivity, financial integrity, financial inclusion.              |
+
+---
+
+### 🔐 Controls
+
+- Roles are assigned on deployment and must be controlled by secure governance (**multi-sig, institutional custody**).  
+- Admin powers should be restricted; prefer **time-locked governance proposals** and **multi-sig signoffs** for major changes.  
+- All **attestations** and **mint/burn events** are viewable on-chain for **full auditability**.  
+
+---
+
+### ⚙️ Operational
+
+- Day-to-day **technical operations** (hosting, contract upgrades, security monitoring) are delegated to an **Operational Partner** regulated by the **Bank of Namibia**.  
+- The Operational Partner manages infrastructure uptime, implements **security best practices**, and ensures compliance with the Governance Charter.  
+- A formal **Operational Partner Agreement** defines responsibilities, service-level commitments, and audit rights.  
+
 ----------
 
-## Contribution Policy (Important)
+### Contribution Policy (Important)
 
 NADD is a **regulated stablecoin project** with financial, legal, and operational implications. Therefore:
 
@@ -162,25 +226,40 @@ If you discover a security issue:
 
 ----------
 
-## Repository Structure
+## 📂 Repository Structure
 
--   `contracts/` — Solidity contracts
-    -   `NADD.sol` (ERC-20 + EIP-712 deposit certificate verification + role-based control)
--   `scripts/` — deploy & utility scripts (Hardhat)
-    -   `deploy.cjs` (deploy contracts, set initial roles)
-    -   `sign-and-build-calldata.ts` (helper for producing deposit certs)
--   `./` — unit & integration tests (mocha/chai)
--   `./` — formal docs, diagrams, regulatory artifacts
--   `WHITEPAPER.md` — full whitepaper
--   `NADD_TRUST_FRAMEWORK.md` — security and compliance framework
--   `ECONOMY_OF_NADD.md` — economic analysis and market study
--   `.env.example` — environment template (do not commit private keys)
--   `hardhat.config.cjs` — Hardhat config
--   `LICENSE` — MIT license text and copyright
--   `SECURITY.md` — responsible disclosure instructions (recommended)
--   `.github/workflows/` — CI (optional): compile/test checks
+-   `contracts/` — Solidity smart contracts  
+    -   [`NADD.sol`](./contracts/NADD.sol) — ERC-20 + EIP-712 deposit certificate verification + role-based control  
 
-> Keep `artifacts/`, `cache/`, and `node_modules/` in `.gitignore`.
+-   `scripts/` — deployment & utility scripts (Hardhat)  
+    -   [`deploy.cjs`](./scripts/deploy.cjs) — deploy contracts, set initial roles  
+    -   [`sign-and-build-calldata.ts`](./scripts/sign-and-build-calldata.ts) — helper for producing deposit certs  
+
+-   `test/` — unit & integration tests (mocha/chai)  
+
+-   `docs/` — formal docs, diagrams, and regulatory artifacts 
+
+-   [`WHITEPAPER.md`](./WHITEPAPER.md) — full whitepaper  
+
+-   [`NADD_GOVERNANCE_CHARTER.md`](./NADD_GOVERNANCE_CHARTER.md) — governance & regulatory alignment charter  
+
+-   [`NADD_TRUST_FRAMEWORK.md`](./NADD_TRUST_FRAMEWORK.md) — security and compliance framework  
+
+-   [`ECONOMY_OF_NADD.md`](./ECONOMY_OF_NADD.md) — economic analysis and market study  
+
+-   [`.env.example`](./.env.example) — environment template (do not commit private keys)  
+
+-   [`hardhat.config.cjs`](./hardhat.config.cjs) — Hardhat configuration  
+
+-   [`LICENSE`](./LICENSE) — MIT license text and copyright  
+
+-   [`SECURITY.md`](./SECURITY.md) — responsible disclosure instructions (recommended)  
+
+-   [`.github/workflows/`](./.github/workflows) — CI/CD automation (compile/test checks)  
+
+---
+
+> **Note:** Keep `artifacts/`, `cache/`, and `node_modules/` in `.gitignore`.
 
 ----------
 
@@ -337,7 +416,7 @@ NADD is a regulated-stablecoin initiative. Nothing in this repository constitute
 
 **Simon Kapenda**  
 Founder & Creator — Abba Payments Ltd., Oshakati, Namibia  
-Creator & Developer of: CillarCoin ($CILLAR), AFRX Security Token, $ENGLISH MEMECOIN, and Abba App.  
+Creator & Developer of: CillarCoin ($CILLAR), AFRX Security Token ($AFRX), $ENGLISH MEMECOIN, Abba App, Angola Digital Kwanza (AOAk), and Zimbabwe Digital Dollar (ZDD).  
 LinkedIn: [https://linkedin.com/in/simonkapenda](https://linkedin.com/in/simonkapenda)
 
 ----------
