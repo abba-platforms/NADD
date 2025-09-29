@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.6] - 2025-09-29
+
+### Added
+- Added [`NADD_GOVERNANCE_CHARTER.md`](./NADD_GOVERNANCE_CHARTER.md) to formalize the governance framework for NADD.
+- Added **Controls** section in README to outline governance roles, multi-sig custody, time-locks, and on-chain auditability.
+- Added **Operational Notes** section in README to explain daily technical operations and governance partner responsibilities.
+- Added direct GitHub links to key documents (Whitepaper, Governance Charter, Trust Framework, Economy of NADD) in README repository structure section for improved navigation.
+
+### Changed
+- Corrected Governance Charter filename reference in README from `NADD_GOVERNANCE_,CHARTER.md` to `NADD_GOVERNANCE_CHARTER.md`.
+- Updated README to include Governance Charter link and expanded repository structure with correct links.
+
+### Fixed
+- Fixed README references to Governance Charter to ensure consistency and accessibility.
+
+----------
+
 ## [v1.0.5] - 2025-09-28
 
 ### Changed
