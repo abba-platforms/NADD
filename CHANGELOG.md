@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 ## [v1.0.7] - 2025-10-08
+
+### Added
+- `NADD_CEX_LISTING.md` outlining the strategy for listing NADD on centralized exchanges (CEX).
+- Summary of the NADD CEX listing strategy added to README with a link to `NADD_CEX_LISTING.md`.
+
+----------
+
+## [v1.0.7] - 2025-10-08
 ### Added
 - Revised Introduction section of the NADD Whitepaper to reflect full production deployment on Binance Smart Chain (BSC) Mainnet.
 - Added details on governance under the NADD Governance Charter.
