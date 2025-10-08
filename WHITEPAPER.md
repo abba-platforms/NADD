@@ -6,14 +6,14 @@
 
 The **Namibia Digital Dollar (NADD)** is a blockchain-native, digitally programmable stablecoin pegged 1:1 to the Namibian Dollar (NAD). It is designed to modernize payments, enable real-time digital transactions, and enhance financial inclusion across Namibia and beyond.  
 
-NADD integrates regulatory-compliant smart contracts with existing banking infrastructure, providing a secure, transparent, and efficient digital currency. By leveraging programmable blockchain technology, NADD offers real-time settlement, automated compliance, and auditability.  
+NADD integrates regulatory-compliant smart contracts with existing banking infrastructure, providing a secure, transparent, and efficient digital currency. Leveraging programmable blockchain technology, NADD delivers real-time settlement, automated compliance, and complete auditability.  
 
-The token is fully backed by reserve assets in collaboration with the Namibia Bank sandbox, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
+Fully backed by reserve assets in accordance with the **NADD Governance Charter**, NADD ensures a stable peg, trust, and regulatory compliance. The Governance Charter establishes the operational framework, reserve management rules, upgrade protocols, and stakeholder oversight mechanisms that secure NADD’s stability and reliability.  
 
-Currently, NADD has been successfully deployed and verified on **Binance Smart Chain (BSC) Testnet** at address:  
-**`0x68579fce5666e93B05784A3e7219D0C294D6F70B`**  
+NADD has been deployed and verified on **Binance Smart Chain (BSC) Mainnet** at address:  
+**`0x0a8f5C56049166b535E698a222d7387b48b7A29E`**  
 
-This testnet deployment allows developers, regulators, and partners to perform comprehensive testing, including wallet integration, minting, burning, and reserve verification, without impacting real funds. Once fully validated in the sandbox and after passing all compliance checks with the Bank of Namibia, NADD will proceed to mainnet deployment with production-ready integrations.
+This Mainnet deployment marks the launch of NADD as a **fully operational digital currency**, available for use in BEP-20 compatible wallets such as MetaMask, Trust Wallet, and others. It is now governed under the NADD Governance Charter, ensuring compliance, security, and sustainability for all transactions and use cases.
 
 The whitepaper details the technical architecture, token economics, governance, social impact, deployment roadmap, and risk mitigation strategies for NADD. It also highlights the Creator’s background in blockchain development and fintech innovation, showcasing prior successes including CillarCoin ($CILLAR), AFRX Security Token, $ENGLISH MEMECOIN, and Abba App.  
 
@@ -78,8 +78,8 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 ## 4. Technical Architecture
 
 ### 4.1 Blockchain and Smart Contracts
-- **Blockchain Network:** Binance Smart Chain (BSC) Testnet initially, moving to mainnet after sandbox approvals.  
-- **Testnet Deployment Address:** `0x68579fce5666e93B05784A3e7219D0C294D6F70B`  
+- **Blockchain Network:** Binance Smart Chain (BSC) Mainnet.  
+- **Verified Contract Address:** `0x0a8f5C56049166b535E698a222d7387b48b7A29E`  
 - **Smart Contracts:** Role-based contracts implementing minting, burning, pausing, auditing, and custodial functionalities.  
 - **EIP-712 Integration:** Enables secure off-chain authorization for deposits and transfers.  
 - **Access Control:**  
@@ -163,7 +163,8 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 - Validate reserve attestation and EIP-712 flows.  
 
 **Phase 3: Mainnet Deployment**  
-- Deploy NADD on production blockchain after sandbox approval.  
+- Deploy NADD on production blockchain after sandbox approval.
+- Verified Contract Address: '0x0a8f5C56049166b535E698a222d7387b48b7A29E'
 - Launch Abba App integration for P2P payments and merchant services.  
 - Begin pilot programs with local banks and government.  
 
