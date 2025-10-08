@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.7] - 2025-10-08
+### Added
+- Revised Introduction section of the NADD Whitepaper to reflect full production deployment on Binance Smart Chain (BSC) Mainnet.
+- Added details on governance under the NADD Governance Charter.
+- Added mention of BEP-20 wallet compatibility (MetaMask, Trust Wallet, etc.).
+
+### Changed
+- Removed all testnet references from the Whitepaper.
+- Updated verified Mainnet contract address to `0x0a8f5C56049166b535E698a222d7387b48b7A29E`.
+
+### Fixed
+- Alignment of Introduction with Mainnet deployment status.
+
+----------
+
 ## [v1.0.6] - 2025-09-29
 
 ### Added
