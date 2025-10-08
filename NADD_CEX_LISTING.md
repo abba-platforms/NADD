@@ -8,7 +8,7 @@ The **Namibia Digital Dollar (NADD)** is a blockchain-native, digitally programm
 
 NADD integrates regulatory-compliant smart contracts with existing banking infrastructure, providing a secure, transparent, and efficient digital currency. By leveraging programmable blockchain technology, NADD offers real-time settlement, automated compliance, and auditability.  
 
-The token is fully backed by reserve assets in collaboration with the Namibia Bank sandbox, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
+NADD is fully backed by on-ledger reserve assets in accordance with the NADD Governance Charter, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
 
 NADD has been successfully deployed and verified on **Binance Smart Chain (BSC) Mainnet** at address:  
 **`0x0a8f5C56049166b535E698a222d7387b48b7A29E`**  
