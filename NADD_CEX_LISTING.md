@@ -2,7 +2,15 @@
 
 ---
 
-### Executive Summary
+## Prelude 
+**Namibia Digital Dollar (NADD)**  
+CEX Listing Proposal & Roadmap  
+Presented by: NADD Strategy & Operations       
+Date: October 2025
+
+---
+
+### Silde 1 — Executive Summary
 
 The **Namibia Digital Dollar (NADD)** is a blockchain-native, digitally programmable stablecoin pegged 1:1 to the Namibian Dollar (NAD). It is designed to modernize payments, enable real-time digital transactions, and enhance financial inclusion across Namibia and beyond.  
 
@@ -23,14 +31,6 @@ The target amount to raise for a CEX listing depends on the exchange tier, liqui
 - **Tier‑1 exchanges (e.g., Binance, Coinbase)**: $2M–$5M  
 
 These funds will cover listing fees, liquidity provisioning for the NADD/USDT pair, marketing campaigns, and legal compliance, ensuring a smooth and high-impact launch.
-
----
-
-## Slide 1 — Prelude 
-**Namibia Digital Dollar (NADD)**  
-CEX Listing Proposal & Roadmap  
-Presented by: NADD Project Team  
-Date: October 2025
 
 ---
 
@@ -136,7 +136,7 @@ Date: October 2025
 ## Slide 12 — Contact & Team
 **NADD Project Team**  
 Website: [nadd.io](#)  
-Email: contact@nadd.io  
+Email: operations@nadd.io  
 Prepared by: NADD Strategy & Operations  
 Date: October 2025
 
