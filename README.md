@@ -18,6 +18,15 @@ You can interact with NADD using BEP-20 compatible wallets such as MetaMask, Tru
 
 ----------
 
+## 📄 NADD CEX Listing Strategy
+
+A dedicated document outlining the strategic rationale for listing the **Namibia Digital Dollar (NADD)** on centralized exchanges (CEX).  
+It covers the purpose, benefits, liquidity pairing strategy (e.g., NADD/USDT), funding targets, and tier-based exchange requirements to drive adoption, accessibility, and market presence.
+
+🔗 [Read more: NADD_CEX_LISTING.md](./NADD_CEX_LISTING.md)
+
+----------
+
 ## Executive Summary
 
 The **Namibia Digital Dollar (NADD)** is a blockchain-native, 1:1 Namibian Dollar-pegged stablecoin designed to modernize national payments, enable secure real-time transactions, and accelerate financial inclusion. NADD combines regulatory-compliant smart contracts, role-based governance, EIP-712 off-chain authorization, and reserve attestation to provide a transparent, auditable digital currency backed by fiat reserves.
