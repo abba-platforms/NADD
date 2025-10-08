@@ -2,15 +2,19 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 
-## Deployment & Contract Address
+## 📘 Namibia Digital Dollar (NADD) — Mainnet Deployment  
 
-The **Namibia Digital Dollar (NADD)** is currently deployed and verified on **Binance Smart Chain Testnet** for sandbox testing and validation.
+The **Namibia Digital Dollar (NADD)** is deployed and verified on **Binance Smart Chain Mainnet** as a fully upgradeable ERC20 stablecoin with governance and timelock control.  
 
-**BSC Testnet Verified Contract Address:** `0x68579fce5666e93B05784A3e7219D0C294D6F70B`
+This deployment represents the production-ready version of NADD, designed to serve as a regulated digital currency pegged to the Namibian Dollar. It incorporates advanced features including upgradeability, role-based access control, pausing mechanisms, and timelock governance to ensure security and flexibility.  
 
-You can interact with the token using compatible wallets (e.g., MetaMask) and integrate it into the **Abba App** for testing purposes.
+**BSC Mainnet Verified Contract Address:**  
+`0x0a8f5C56049166b535E698a222d7387b48b7A29E`
 
-> ⚠️ Note: This is a testnet deployment. NADD is **not yet live on mainnet** and should not be used for real transactions.
+You can interact with NADD using BEP-20 compatible wallets such as MetaMask, Trust Wallet, and others that support Binance Smart Chain tokens.  
+
+> ⚠️ **Note:** NADD on Mainnet is live and verified.  
+> This contract is ready for real-world transactions and governance operations. Use responsibly.
 
 ----------
 
