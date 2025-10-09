@@ -2,6 +2,17 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 
+# 🚀 Official Announcement: NADD Mainnet Deployment & Press Release
+
+The **Namibia Digital Dollar (NADD)** — Namibia’s first blockchain-native stablecoin — has been **successfully deployed and verified on the Binance Smart Chain (BSC) Mainnet**.  
+
+NADD represents a groundbreaking step in Namibia’s digital finance journey, offering a secure, transparent, and programmable digital currency aligned with the NADD Governance Charter.  
+
+📢 **Read the full official press release:**  
+➡️ [branding/PRESS_RELEASE_NADD_MAINNET.md](branding/PRESS_RELEASE_NADD_MAINNET.md)
+
+---
+
 ## 📘 Namibia Digital Dollar (NADD) — Mainnet Deployment  
 
 The **Namibia Digital Dollar (NADD)** is deployed and verified on **Binance Smart Chain Mainnet** as a fully upgradeable ERC20 stablecoin with governance and timelock control.  
