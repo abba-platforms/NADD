@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.7] - 2025-10-09
+
+### Added
+- Official announcement summary of NADD Mainnet deployment and press release added to the top of the README.
+- Link to full press release file located at `branding/PRESS_RELEASE_NADD_MAINNET.md`.
+
+### Notes
+- This update marks the public communication milestone for the Namibia Digital Dollar (NADD) project following its verified deployment on the Binance Smart Chain Mainnet.
+- The announcement enhances project visibility and provides direct access to the official press release for media and stakeholders.
+
+----------
+
 ## [v1.0.7] - 2025-10-08
 
 ### Added
