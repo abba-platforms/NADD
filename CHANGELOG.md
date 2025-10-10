@@ -4,7 +4,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.8] - 2025-10-10
+### Added
+- Introduced **NADD Integration Infrastructure** technical paper (`docs/NADD_INTEGRATION_INFRASTRUCTURE.md`)
+  - Details how NADD integrates with Namibia’s existing mobile money, banking, and utility payment systems.
+  - Explains interoperability mechanisms for financial inclusion and nationwide digital payments.
+- Updated **README.md** with a new summary and direct link to the NADD Integration Infrastructure document.
+
+### Summary
+This release extends the NADD ecosystem documentation by providing a detailed framework for integrating NADD with local financial platforms, ensuring that the Namibia Digital Dollar can be used seamlessly across mobile wallets, banking apps, and digital utilities.
+
 ## [v1.0.7] - 2025-10-09
+
+----------
 
 ### Added
 - Official announcement summary of NADD Mainnet deployment and press release added to the top of the README.
