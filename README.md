@@ -48,9 +48,19 @@ This repository contains the project’s technical artifacts, deployment scripts
 
 ## Overview
 
-NADD is built for safety, compliance, and programmability. It integrates with the **Abba App** to deliver mobile-first payments, merchant acceptance, and remittances. NADD is intended to be tested in the **Bank of Namibia Sandbox** before any mainnet deployment. The smart contracts are developed using OpenZeppelin patterns and follow strict role-based controls to limit privileged operations (mint, burn, pause).
+NADD is built for safety, compliance, and programmability. It integrates with all BEP-20 compatible wallets including the **Abba App** to deliver mobile-first payments, merchant acceptance, and remittances. NADD is intended to be tested in the **Bank of Namibia Sandbox** before any mainnet deployment. The smart contracts are developed using OpenZeppelin patterns and follow strict role-based controls to limit privileged operations (mint, burn, pause).
 
 📖 Read the full WHITEPAPER here: [WHITEPAPER.md](./WHITEPAPER.md)
+
+----------
+
+## 🛰️ NADD Integration into Namibia’s Financial Infrastructure
+
+NADD is designed for full interoperability across Namibia’s financial and telecom ecosystems — from traditional banks and mobile money platforms (like MTC) to electricity vending and digital service providers.
+
+This integration framework enables **secure, instant, and inclusive digital payments**, even for users without smartphones, through **USSD and custodial wallet support**. It establishes how NADD can work seamlessly with Namibia’s existing payment rails to expand financial inclusion and modernize the national payments system.
+
+📄 Read the full technical paper: [Integrating NADD into Namibia’s National Payment Infrastructure](https://github.com/abba-platforms/NADD/blob/main/technical/NADD_INTEGRATION_INFRASTRUCTURE.md)
 
 ----------
 
