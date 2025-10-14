@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 
-# 🚀 Official Announcement: NADD Mainnet Deployment & Press Release
+# 🚀 Press Release: NADD Mainnet Deployment
 
 The **Namibia Digital Dollar (NADD)** — Namibia’s first blockchain-native stablecoin — has been **successfully deployed and verified on the Binance Smart Chain (BSC) Mainnet**.  
 
@@ -61,6 +61,16 @@ NADD is designed for full interoperability across Namibia’s financial and tele
 This integration framework enables **secure, instant, and inclusive digital payments**, even for users without smartphones, through **USSD and custodial wallet support**. It establishes how NADD can work seamlessly with Namibia’s existing payment rails to expand financial inclusion and modernize the national payments system.
 
 📄 Read the full technical paper: [Integrating NADD into Namibia’s National Payment Infrastructure](https://github.com/abba-platforms/NADD/blob/main/technical/NADD_INTEGRATION_INFRASTRUCTURE.md)
+
+----------
+
+### NADD Reserve Model
+
+The Namibia Digital Dollar (NADD) employs a **hybrid reserve model** combining **on-ledger reserves** and **fiat reserves** to ensure full backing of the stablecoin and maintain its 1:1 peg with the Namibian Dollar (NAD).  
+
+NADD is engineered for secure, transparent, and compliant digital currency operations, with a framework that supports custodian banking, proof-of-reserves verification, and integration with local and regional banking infrastructure.  
+
+For full details, methodology, and operational guidelines, see the complete document: [NADD Reserve Model](NADD_RESERVE_MODEL.md)
 
 ----------
 
