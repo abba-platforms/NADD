@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.8] - 2025-10-14
+### Added
+- NADD_RESERVE_MODEL.md to the repository.
+- README summary and backlink for NADD_RESERVE_MODEL.md.
+
+----------
+
 ## [v1.0.8] - 2025-10-10
 ### Added
 - Introduced **NADD Integration Infrastructure** technical paper (`docs/NADD_INTEGRATION_INFRASTRUCTURE.md`)
