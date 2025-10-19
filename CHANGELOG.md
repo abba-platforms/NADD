@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.8] - 2025-10-19
+
+### Added
+- **NADD_OIL_AND_POLICY_BRIEF.md** — Introduced a comprehensive policy brief detailing the strategic role of the Namibia Digital Dollar (NADD) in Namibia’s emerging oil and gas industry. The document outlines how NADD’s hybrid reserve model and blockchain infrastructure can enhance transparency, efficiency, and fiscal accountability within the petroleum sector.  
+- **README.md** — Added a summary section linking to the new policy brief for quick reference by policymakers, regulators, and industry stakeholders.
+
+### Context
+This update reinforces NADD’s broader mission to support national economic transformation by integrating blockchain-based stablecoin solutions into key industrial and financial sectors.
+
+----------
+
 ## [v1.0.8] - 2025-10-14
 ### Added
 - NADD_RESERVE_MODEL.md to the repository.
