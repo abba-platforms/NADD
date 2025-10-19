@@ -54,6 +54,16 @@ NADD is built for safety, compliance, and programmability. It integrates with al
 
 ----------
 
+### 🇳🇦 NADD Policy Brief: Role in Namibia’s Oil & Gas Industry
+
+The **Namibia Digital Dollar (NADD)** — the nation’s first blockchain-native stablecoin — is pegged 1:1 to the Namibian Dollar and backed by **hybrid on-ledger and fiat reserves**.  
+In light of Namibia’s emerging **oil and gas discoveries**, this policy brief explores how NADD can facilitate **efficient, transparent, and compliant financial infrastructure** to support the sector’s growth.  
+It outlines how the integration of NADD into the petroleum value chain can **enhance payment efficiency**, **strengthen local currency stability**, and **foster regulatory innovation** in the digital economy.
+
+📄 **Read the full policy brief:** [NADD_OIL_AND_POLICY_BRIEF.md](./NADD_OIL_AND_POLICY_BRIEF.md)
+
+----------
+
 ## 🛰️ NADD Integration into Namibia’s Financial Infrastructure
 
 NADD is designed for full interoperability across Namibia’s financial and telecom ecosystems — from traditional banks and mobile money platforms (like MTC) to electricity vending and digital service providers.
