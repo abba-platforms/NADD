@@ -60,7 +60,7 @@ The **Namibia Digital Dollar (NADD)** — the nation’s first blockchain-native
 In light of Namibia’s emerging **oil and gas discoveries**, this policy brief explores how NADD can facilitate **efficient, transparent, and compliant financial infrastructure** to support the sector’s growth.  
 It outlines how the integration of NADD into the petroleum value chain can **enhance payment efficiency**, **strengthen local currency stability**, and **foster regulatory innovation** in the digital economy.
 
-📄 **Read the full policy brief:** [NADD_OIL_AND_POLICY_BRIEF.md](./NADD_OIL_AND_POLICY_BRIEF.md)
+📄 **Read the full policy brief:** [NADD_OIL_AND_GAS_POLICY_BRIEF.md](./NADD_OIL_AND_GAS_POLICY_BRIEF.md)
 
 ----------
 
