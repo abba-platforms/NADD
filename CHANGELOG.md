@@ -7,6 +7,19 @@ All notable changes to this project will be documented in this file. The format 
 ## [v1.0.8] - 2025-10-19
 
 ### Added
+- `NADD_RESERVE_MODEL.md` – detailed documentation on NADD’s hybrid reserve model combining on-ledger and fiat reserves.
+- `NADD_EXECUTIVE_MANAGEMENT_STRUCTURE.md` – outlined NADD as an independent division of Abba Payments Ltd. with a full executive management team and governance framework.
+- README summaries added for both `NADD_RESERVE_MODEL.md` and `NADD_EXECUTIVE_MANAGEMENT_STRUCTURE.md` with direct links to the full documents.
+
+### Notes
+- NADD now emphasizes hybrid reserve backing instead of purely on-ledger reserves.
+- Executive structure clarifies roles, reporting lines, and oversight responsibilities for operational, financial, technical, compliance, and CEX listing activities.
+
+----------
+
+## [v1.0.8] - 2025-10-19
+
+### Added
 - **NADD_OIL_AND_POLICY_BRIEF.md** — Introduced a comprehensive policy brief detailing the strategic role of the Namibia Digital Dollar (NADD) in Namibia’s emerging oil and gas industry. The document outlines how NADD’s hybrid reserve model and blockchain infrastructure can enhance transparency, efficiency, and fiscal accountability within the petroleum sector.  
 - **README.md** — Added a summary section linking to the new policy brief for quick reference by policymakers, regulators, and industry stakeholders.
 
