@@ -74,13 +74,30 @@ This integration framework enables **secure, instant, and inclusive digital paym
 
 ----------
 
-### NADD Reserve Model
+## NADD Reserve Model
 
 The Namibia Digital Dollar (NADD) employs a **hybrid reserve model** combining **on-ledger reserves** and **fiat reserves** to ensure full backing of the stablecoin and maintain its 1:1 peg with the Namibian Dollar (NAD).  
 
 NADD is engineered for secure, transparent, and compliant digital currency operations, with a framework that supports custodian banking, proof-of-reserves verification, and integration with local and regional banking infrastructure.  
 
 For full details, methodology, and operational guidelines, see the complete document: [NADD Reserve Model](NADD_RESERVE_MODEL.md)
+
+----------
+
+## NADD Executive Management Structure
+
+Namibia Digital Dollar (NADD) operates as an independent division of Abba Payments Namibia (Pty) Ltd., with its own executive management and governance framework. This ensures operational autonomy, transparency, and accountability in the issuance, management, and growth of NADD.
+
+The Executive Management Structure outlines key leadership roles, including:
+
+- CEO, NADD
+- CFO, CTO, CCRO, COO
+- Head of Policy & Public Affairs
+- Communications & Media Director
+- Board Liaison / Executive Secretary
+- Head of Exchange Operations & Trading (CEX listing & trading)
+
+For complete details, see the full document: [NADD Executive Management Structure](./NADD_EXECUTIVE_MANAGEMENT_STRUCTURE.md)
 
 ----------
 
