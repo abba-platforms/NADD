@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.9] - 2025-10-24
+
+### Added
+- **NADD_ADD_WALLET.md:** A new user guide with detailed instructions on how to add the Namibia Digital Dollar (NADD) to any BEP-20 compatible wallet, including MetaMask and Trust Wallet.
+- Updated **README.md** to include a backlink to the new wallet guide, improving accessibility and user onboarding.
+
+### Improved
+- Enhanced documentation consistency across all user-facing sections, ensuring uniform tone and formatting.
+- Refined references to verified contract and BSCScan link for clarity and user trust.
+
+### Notes
+This release focuses on community adoption, usability, and simplifying the onboarding process for new NADD users across Namibia and globally.
+
+----------
+
 ## [v1.0.8] - 2025-10-19
 
 ### Added
