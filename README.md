@@ -29,6 +29,17 @@ You can interact with NADD using BEP-20 compatible wallets such as MetaMask, Tru
 
 ----------
 
+## 🪙 Add NADD to Your Wallet
+
+You can now easily add the **Namibia Digital Dollar (NADD)** to your BEP-20 compatible wallet and start using it for digital payments, transfers, and merchant transactions.
+
+Follow the full step-by-step guide here:  
+👉 [How to Add NADD to Your Wallet](./NADD_ADD_WALLET.md)
+
+Join the movement toward a blockchain-powered Namibian digital economy today!
+
+----------
+
 ## 📄 NADD CEX Listing Strategy
 
 A dedicated document outlining the strategic rationale for listing the **Namibia Digital Dollar (NADD)** on centralized exchanges (CEX).  
