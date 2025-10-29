@@ -1,6 +1,7 @@
 # Namibia Digital Dollar (NADD)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
+![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
 
 # 🚀 Press Release: NADD Mainnet Deployment
 
@@ -62,6 +63,14 @@ This repository contains the project’s technical artifacts, deployment scripts
 NADD is built for safety, compliance, and programmability. It integrates with all BEP-20 compatible wallets including the **Abba App** to deliver mobile-first payments, merchant acceptance, and remittances. NADD is intended to be tested in the **Bank of Namibia Sandbox** before any mainnet deployment. The smart contracts are developed using OpenZeppelin patterns and follow strict role-based controls to limit privileged operations (mint, burn, pause).
 
 📖 Read the full WHITEPAPER here: [WHITEPAPER.md](./WHITEPAPER.md)
+
+----------
+
+## NADD Valuation Summary
+
+This document provides a detailed valuation analysis for the **Namibia Digital Dollar (NADD)**. It covers Namibia’s current money supply (M1 and M2), potential adoption scenarios, hybrid reserve backing, and economic implications across key sectors like mining, fishing, and tourism. It also outlines NADD’s role in enhancing financial inclusion, cross-border liquidity, and global market access, as well as long-term monetization pathways and valuation multipliers. The analysis serves as a reference for **investors, partners, and strategic planning**.
+
+For full details, see [NADD_VALUATION.md](./NADD_VALUATION.md)
 
 ----------
 
