@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] - 2025-10-29
+### Added
+- Comprehensive **NADD Valuation Summary** detailing Namibia's money supply (M1 & M2), adoption scenarios, reserve backing, economic implications, and long-term valuation multipliers.
+- README updated with a summary and backlink to the full document: [NADD_VALUATION.md](./NADD_VALUATION.md).
+
+----------
+
 ## [v1.0.9] - 2025-10-24
 
 ### Added
