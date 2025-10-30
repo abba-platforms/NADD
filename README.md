@@ -104,6 +104,16 @@ For full details, methodology, and operational guidelines, see the complete docu
 
 ----------
 
+## 🏢 Company Overview
+
+**NADD Labs (Pty) Ltd** was established in October 2025 by **Simon Kapenda**, the Creator of the **Namibia Digital Dollar (NADD)**, as an independent company spun off from **Abba Payments (Namibia) (Pty) Ltd** — registered under the laws of the Republic of Namibia (Company Registration No. 2023/0770).
+
+NADD Labs (Pty) Ltd serves as the official development, governance, and commercialization entity for the Namibia Digital Dollar (NADD), a blockchain-native stablecoin pegged 1:1 with the Namibian Dollar (NAD).  
+
+📘 [Read the full company profile](./COMPANY.md)
+
+----------
+
 ## NADD Executive Management Structure
 
 Namibia Digital Dollar (NADD) operates as an independent division of Abba Payments Namibia (Pty) Ltd., with its own executive management and governance framework. This ensures operational autonomy, transparency, and accountability in the issuance, management, and growth of NADD.
