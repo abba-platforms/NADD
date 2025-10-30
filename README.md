@@ -5,7 +5,7 @@
 
 ## NADD Token Draft
 
-![NADD Coin](media/nadd.jpg)
+![NADD Coin](media/naddtoken.jpg)
 
 # 🚀 Press Release: NADD Mainnet Deployment
 
