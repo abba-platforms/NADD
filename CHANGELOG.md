@@ -6,6 +6,18 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [v1.0.10] - 2025-10-30
 
+### Fixed
+- Corrected image reference in `README.md` to point to the proper file name `media/naddtoken.jpg` instead of `media/nadd.jpg`.
+
+### Added Previously in v1.0.10
+- Added new `COMPANY.md` file detailing the spin-off of **NADD Labs (Pty) Ltd.**
+- Updated `README.md` with a summary of `COMPANY.md` and added NADD token image and Namibian flag.
+- Continued structural and branding updates to improve repository presentation.
+
+----------
+
+## [v1.0.10] - 2025-10-30
+
 ### Added
 - **COMPANY.md** — Introduces NADD Labs (Pty) Ltd as an independent company spun off from Abba Payments (Namibia) (Pty) Ltd.  
   Defines its role as the official development, governance, and commercialization entity for the Namibia Digital Dollar (NADD).
