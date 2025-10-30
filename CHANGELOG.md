@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] - 2025-10-30
+
+### Added
+- **COMPANY.md** — Introduces NADD Labs (Pty) Ltd as an independent company spun off from Abba Payments (Namibia) (Pty) Ltd.  
+  Defines its role as the official development, governance, and commercialization entity for the Namibia Digital Dollar (NADD).
+
+### Updated
+- **README.md** — Added a summary and backlink to COMPANY.md to provide context about NADD Labs’ establishment, purpose, and relation to the NADD ecosystem.
+
+----------
+
 ## [v1.0.10] - 2025-10-29
 ### Added
 - Comprehensive **NADD Valuation Summary** detailing Namibia's money supply (M1 & M2), adoption scenarios, reserve backing, economic implications, and long-term valuation multipliers.
