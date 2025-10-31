@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 ## [v1.0.10] - 2025-10-30
+### Added
+- Added a detailed valuation summary to `COMPANY.md` including USD and NAD conversions for 20% strategic investor allocation.
+- Expanded the section to clarify potential investor participation and market valuation scenarios for NADD Labs (Pty) Ltd.
+
+### Updated
+- Updated documentation to reflect the latest valuation framework integration and investor structure alignment with the NADD ecosystem.
+
+----------
+
+## [v1.0.10] - 2025-10-30
 
 ### Fixed
 - Corrected image reference in `README.md` to point to the proper file name `media/naddtoken.jpg` instead of `media/nadd.jpg`.
