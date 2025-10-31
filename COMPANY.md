@@ -1,8 +1,8 @@
-# Company — NADD Labs (Pty) Ltd
+# Company — NADD Labs Ltd
 
 ## 1. Overview
 
-**NADD Labs (Pty) Ltd** was established in October 2025 by **Simon Kapenda**, the Creator of the Namibia Digital Dollar (NADD), as an independent company spun off from **Abba Payments (Namibia) (Pty) Ltd**, registered under the laws of the Republic of Namibia (Company Registration No. 2023/0770). **NADD Labs (Pty) Ltd** is to serve as the official development, governance, and commercialization entity for the Namibia Digital Dollar (NADD), a blockchain-native stablecoin pegged 1:1 with the Namibian Dollar (NAD).
+**NADD Labs Ltd** was established in October 2025 by **Simon Kapenda**, the Creator of the Namibia Digital Dollar (NADD), as an independent company spun off from **Abba Payments (Namibia) (Pty) Ltd**, registered under the laws of the Republic of Namibia (Company Registration No. 2023/0770). **NADD Labs Ltd** is to serve as the official development, governance, and commercialization entity for the Namibia Digital Dollar (NADD), a blockchain-native stablecoin pegged 1:1 with the Namibian Dollar (NAD).
 
 The formation of NADD Labs formalizes the operational, technical, and strategic management of the NADD ecosystem, enabling independent governance, investment participation, and transparent public accountability.
 
@@ -33,7 +33,7 @@ The company’s primary objectives are:
 
 ## 3. Ownership Structure
 
-Following the spin-off, the equity distribution in **NADD Labs (Pty) Ltd** is structured as follows:
+Following the spin-off, the equity distribution in **NADD Labs Ltd** is structured as follows:
 
 | Shareholder | Ownership (%) | Description |
 |--------------|----------------|-------------|
@@ -54,7 +54,7 @@ NADD Labs’ market potential is derived from the **Namibia Digital Dollar Valua
 | **Moderate** | 15% | $1.43B | $14.3M |
 | **Aggressive (Full Adoption)** | 50% | $4.75B | $47.5M |
 
-A 1% stake in NADD Labs (Pty) Ltd thus represents exposure to a multi-billion-dollar opportunity tied directly to Namibia’s monetary digitization and blockchain transformation.
+A 1% stake in NADD Labs Ltd thus represents exposure to a multi-billion-dollar opportunity tied directly to Namibia’s monetary digitization and blockchain transformation.
 
 *(See full [NADD Valuation Summary](./NADD_VALUATION.md) for detailed analysis.)*
 
@@ -62,7 +62,7 @@ A 1% stake in NADD Labs (Pty) Ltd thus represents exposure to a multi-billion-do
 
 ## 5. 💰 Valuation Summary and Strategic Allocation
 
-Based on the Namibia Digital Dollar (NADD) valuation framework, the estimated potential market capitalization and corresponding value of a **20% strategic stake** in **NADD Labs (Pty) Ltd** are as follows:
+Based on the Namibia Digital Dollar (NADD) valuation framework, the estimated potential market capitalization and corresponding value of a **20% strategic stake** in **NADD Labs Ltd** are as follows:
 
 | Adoption Scenario | Total NADD Market Value (USD) | 20% Stake (USD) | 20% Stake (NAD) |
 |--------------------|-------------------------------|-----------------|-----------------|
@@ -70,9 +70,29 @@ Based on the Namibia Digital Dollar (NADD) valuation framework, the estimated po
 | **Moderate (15% of M2)** | $1,430,000,000 | $286,000,000 | N$5,005,000,000 |
 | **Aggressive (50% of M2)** | $4,750,000,000 | $950,000,000 | N$16,625,000,000 |
 
-A 20% stake in **NADD Labs (Pty) Ltd** represents a direct equity position in the company responsible for developing, governing, and commercializing the **Namibia Digital Dollar (NADD)** — the country’s first blockchain-native stablecoin pegged 1:1 with the Namibian Dollar (NAD) and backed by hybrid fiat and on-ledger reserves.
+A 20% stake in **NADD Labs Ltd** represents a direct equity position in the company responsible for developing, governing, and commercializing the **Namibia Digital Dollar (NADD)** — the country’s first blockchain-native stablecoin pegged 1:1 with the Namibian Dollar (NAD) and backed by hybrid fiat and on-ledger reserves.
 
 This allocation is intended for **strategic investors** who bring capital, technology, or regulatory expertise to advance the NADD ecosystem’s growth, regional adoption, and integration within the broader African digital economy.
+
+---
+
+### 5.1 Preferred Share Price
+
+Assuming **500,000 preferred shares** are issued to represent the 20% strategic allocation, the implied **price per preferred share** under each adoption scenario is:
+
+| Adoption Scenario | 20% Stake Value (NAD) | 500,000 Preferred Shares | Price per Preferred Share (NAD) | Price per Preferred Share (USD) |
+|------------------|----------------------|-------------------------|--------------------------------|--------------------------------|
+| **Conservative (5% of M2)** | N$1,662,500,000 | 500,000 | N$3,325 | $190 |
+| **Moderate (15% of M2)** | N$5,005,000,000 | 500,000 | N$10,010 | $1,430 |
+| **Aggressive (50% of M2)** | N$16,625,000,000 | 500,000 | N$33,250 | $4,750 |
+
+**Notes:**
+
+- The USD equivalent uses the prevailing exchange assumption of **1 USD ≈ 17.5 NAD**, consistent with prior valuations.  
+- Each preferred share provides direct exposure to NADD Labs’ growth and governance rights tied to the 20% strategic allocation.  
+- This structured pricing ensures alignment with the company’s equity framework and facilitates transparent strategic investment discussions.
+
+*(See full [NADD Valuation Summary](./NADD_VALUATION.md) for detailed economic analysis.)*
 
 ---
 
@@ -110,7 +130,7 @@ This allocation is intended for **strategic investors** who bring capital, techn
 
 ## 8. Legal & Compliance Framework
 
-NADD Labs (Pty) Ltd is incorporated in Namibia under the Companies Act, operating as a private limited entity.  
+NADD Labs Ltd is incorporating in Namibia under the Companies Act, operating as a private limited entity.  
 It will adhere to:
 
 - **Bank of Namibia** guidelines for digital asset issuance and custody.  
@@ -123,7 +143,7 @@ All operations will be subject to regular audit and compliance review.
 
 ## 9. Conclusion
 
-The spin-off of **NADD Labs (Pty) Ltd** marks a strategic milestone for Namibia’s digital transformation, creating a purpose-built institution focused on innovation, inclusion, and monetary modernization.  
+The spin-off of **NADD Labs Ltd** marks a strategic milestone for Namibia’s digital transformation, creating a purpose-built institution focused on innovation, inclusion, and monetary modernization.  
 
 By separating NADD from Abba Payments, the company gains independence to attract investors, form cross-sector partnerships, and expand its technological and economic footprint — while maintaining Abba Payments’ majority stake and strategic oversight.
 
