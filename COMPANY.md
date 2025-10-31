@@ -1,4 +1,4 @@
-# NADD Labs (Pty) Ltd
+# Company — NADD Labs (Pty) Ltd
 
 ## 1. Overview
 
@@ -60,7 +60,23 @@ A 1% stake in NADD Labs (Pty) Ltd thus represents exposure to a multi-billion-do
 
 ---
 
-## 5. Strategic Objectives (2025–2030)
+## 5. 💰 Valuation Summary and Strategic Allocation
+
+Based on the Namibia Digital Dollar (NADD) valuation framework, the estimated potential market capitalization and corresponding value of a **20% strategic stake** in **NADD Labs (Pty) Ltd** are as follows:
+
+| Adoption Scenario | Total NADD Market Value (USD) | 20% Stake (USD) | 20% Stake (NAD) |
+|--------------------|-------------------------------|-----------------|-----------------|
+| **Conservative (5% of M2)** | $475,000,000 | $95,000,000 | N$1,662,500,000 |
+| **Moderate (15% of M2)** | $1,430,000,000 | $286,000,000 | N$5,005,000,000 |
+| **Aggressive (50% of M2)** | $4,750,000,000 | $950,000,000 | N$16,625,000,000 |
+
+A 20% stake in **NADD Labs (Pty) Ltd** represents a direct equity position in the company responsible for developing, governing, and commercializing the **Namibia Digital Dollar (NADD)** — the country’s first blockchain-native stablecoin pegged 1:1 with the Namibian Dollar (NAD) and backed by hybrid fiat and on-ledger reserves.
+
+This allocation is intended for **strategic investors** who bring capital, technology, or regulatory expertise to advance the NADD ecosystem’s growth, regional adoption, and integration within the broader African digital economy.
+
+---
+
+## 6. Strategic Objectives (2025–2030)
 
 1. **Digital Currency Adoption:**  
    Achieve 10–15% of Namibia’s M2 tokenized within five years through wallet distribution, fintech integrations, and banking partnerships.
@@ -79,7 +95,7 @@ A 1% stake in NADD Labs (Pty) Ltd thus represents exposure to a multi-billion-do
 
 ---
 
-## 6. Governance & Oversight
+## 7. Governance & Oversight
 
 - **Board Composition:**  
   The board will include representatives from Abba Payments, strategic investors, and independent advisors with experience in finance, technology, and regulation.
@@ -92,7 +108,7 @@ A 1% stake in NADD Labs (Pty) Ltd thus represents exposure to a multi-billion-do
 
 ---
 
-## 7. Legal & Compliance Framework
+## 8. Legal & Compliance Framework
 
 NADD Labs (Pty) Ltd is incorporated in Namibia under the Companies Act, operating as a private limited entity.  
 It will adhere to:
@@ -105,7 +121,7 @@ All operations will be subject to regular audit and compliance review.
 
 ---
 
-## 8. Conclusion
+## 9. Conclusion
 
 The spin-off of **NADD Labs (Pty) Ltd** marks a strategic milestone for Namibia’s digital transformation, creating a purpose-built institution focused on innovation, inclusion, and monetary modernization.  
 
