@@ -4,10 +4,18 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+### [v1.0.10] – 2025-11-01
+#### Added
+- Detailed preferred share pricing for NADD Labs Ltd based on 20% strategic allocation.
+- USD and NAD equivalent per preferred share under conservative, moderate, and aggressive adoption scenarios of NADD.
+- Alignment with previously committed equity structure and valuation framework for strategic investor reference.
+
+----------
+
 ## [v1.0.10] - 2025-10-30
 ### Added
 - Added a detailed valuation summary to `COMPANY.md` including USD and NAD conversions for 20% strategic investor allocation.
-- Expanded the section to clarify potential investor participation and market valuation scenarios for NADD Labs (Pty) Ltd.
+- Expanded the section to clarify potential investor participation and market valuation scenarios for NADD Labs Ltd.
 
 ### Updated
 - Updated documentation to reflect the latest valuation framework integration and investor structure alignment with the NADD ecosystem.
@@ -20,7 +28,7 @@ All notable changes to this project will be documented in this file. The format 
 - Corrected image reference in `README.md` to point to the proper file name `media/naddtoken.jpg` instead of `media/nadd.jpg`.
 
 ### Added Previously in v1.0.10
-- Added new `COMPANY.md` file detailing the spin-off of **NADD Labs (Pty) Ltd.**
+- Added new `COMPANY.md` file detailing the spin-off of **NADD Labs Ltd.**
 - Updated `README.md` with a summary of `COMPANY.md` and added NADD token image and Namibian flag.
 - Continued structural and branding updates to improve repository presentation.
 
@@ -29,7 +37,7 @@ All notable changes to this project will be documented in this file. The format 
 ## [v1.0.10] - 2025-10-30
 
 ### Added
-- **COMPANY.md** — Introduces NADD Labs (Pty) Ltd as an independent company spun off from Abba Payments (Namibia) (Pty) Ltd.  
+- **COMPANY.md** — Introduces NADD Labs Ltd as an independent company spun off from Abba Payments (Namibia) (Pty) Ltd.  
   Defines its role as the official development, governance, and commercialization entity for the Namibia Digital Dollar (NADD).
 
 ### Updated
