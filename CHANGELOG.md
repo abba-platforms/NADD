@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] - 2025-11-03
+
+### Added
+- `NADD_CUSTODIAN_CONNECTIVITY.md` detailing custodian bank integration, hybrid reserve model, minting/redemption flow, audit, and compliance mechanisms.
+- README summary for NADD custodian connectivity with backlink to full document.
+
+----------
+
 ### [v1.0.10] – 2025-11-01
 #### Added
 - Detailed preferred share pricing for NADD Labs Ltd based on 20% strategic allocation.
