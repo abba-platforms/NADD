@@ -127,7 +127,7 @@ The NADD Reserve Setup document explains:
 - Transparency, auditing, and governance mechanisms
 
 For full details, see the NADD Reserve documentation:  
-🔗 [NADD Reserve Setup and Workflow](./NADD_CUSTODIAN_CONNECTIVITY.md)
+🔗 [NADD Reserve Setup and Workflow](./NADD_RESERVE_SETUP.md)
 
 ----------
 
