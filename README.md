@@ -118,6 +118,19 @@ For full details, methodology, and operational guidelines, see the complete docu
 
 ----------
 
+**NADD Reserve Setup and Custodian Workflow**
+
+The NADD Reserve Setup document explains:
+- Initial seed reserve of NAD 5,000,000
+- User minting and redemption flows via custodian banks
+- Smart contract enforcement of 1:1 peg
+- Transparency, auditing, and governance mechanisms
+
+For full details, see the NADD Reserve documentation:  
+🔗 [NADD Reserve Setup and Workflow](./NADD_CUSTODIAN_CONNECTIVITY.md)
+
+----------
+
 ## 🏢 Company Overview
 
 **NADD Labs Ltd** was established in October 2025 by **Simon Kapenda**, the Creator of the **Namibia Digital Dollar (NADD)**, as an independent company spun off from **Abba Payments (Namibia) (Pty) Ltd** — registered under the laws of the Republic of Namibia (Company Registration No. 2023/0770).
