@@ -7,6 +7,14 @@ All notable changes to this project will be documented in this file. The format 
 ## [v1.0.10] - 2025-11-03
 
 ### Added
+- Summary of NADD Reserve Setup and Custodian Workflow added to README.
+- Backlink included to full documentation: `./NADD_RESERVE_SETUP.md`.
+
+----------
+
+## [v1.0.10] - 2025-11-03
+
+### Added
 - `NADD_CUSTODIAN_CONNECTIVITY.md` detailing custodian bank integration, hybrid reserve model, minting/redemption flow, audit, and compliance mechanisms.
 - README summary for NADD custodian connectivity with backlink to full document.
 
