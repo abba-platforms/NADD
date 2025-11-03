@@ -70,6 +70,16 @@ NADD is built for safety, compliance, and programmability. It integrates with al
 
 ----------
 
+## Custodian Bank Connectivity
+
+NADD Labs Ltd ensures a **hybrid reserve model** combining **fiat reserves** (held with licensed custodian banks) and **on-ledger tokenized reserves**. This integration maintains a **1:1 parity with the Namibian Dollar (NAD)** while enabling programmable digital transactions. 
+
+The system includes audit mechanisms, real-time dashboards, attestation updates, and smart contract enforcement to prevent over-issuance, ensuring transparency, compliance, and accountability.  
+
+📄 Full details: [NADD Custodian Connectivity](./NADD_CUSTODIAN_CONNECTIVITY.md)
+
+----------
+
 ## NADD Valuation Summary
 
 This document provides a detailed valuation analysis for the **Namibia Digital Dollar (NADD)**. It covers Namibia’s current money supply (M1 and M2), potential adoption scenarios, hybrid reserve backing, and economic implications across key sectors like mining, fishing, and tourism. It also outlines NADD’s role in enhancing financial inclusion, cross-border liquidity, and global market access, as well as long-term monetization pathways and valuation multipliers. The analysis serves as a reference for **investors, partners, and strategic planning**.
