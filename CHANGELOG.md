@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] - 2025-11-12
+### Added
+- Complete NADD Executive Management Structure in ASCII markdown format.
+  - Includes CEO, Chief Business Development Officer (CBDO), CFO, CTO, CCRO, COO, Head of Policy & Public Affairs, Communications & Media Director, and Board Liaison / Executive Secretary.
+  - Reporting lines fully preserved for each role.
+  - Repo-friendly formatting for proper display in GitHub and other markdown environments.
+ 
+----------
+
 ## [v1.0.10] - 2025-11-03
 
 ### Added
