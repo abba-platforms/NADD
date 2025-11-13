@@ -1,15 +1,17 @@
-# 🏛️ NADD Executive Management Structure
+🏛️ NADD Executive Management Structure
+======================================
 
-Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba Payments Namibia (Pty) Ltd.**, with its own executive management and governance framework. While NADD aligns with the broader strategic objectives of Abba Payments, it maintains operational autonomy to ensure transparency, compliance, and accountability in the issuance, management, and stability of the digital currency.
+Namibia Digital Dollar (NADD) operates as an independent division of Abba Payments Namibia (Pty) Ltd., with its own executive management and governance framework. While NADD aligns with the broader strategic objectives of Abba Payments, it maintains operational autonomy to ensure transparency, compliance, and accountability in the issuance, management, and stability of the digital currency.
 
 ---
 
-## 1. Chief Executive Officer (CEO, NADD)
-**Reports to:** CEO, Abba Payments  
+CEO, NADD
+---------
+Reports to: CEO, Abba Payments  
 
-**Role:** Provides strategic leadership and oversees NADD’s overall direction, regulatory engagement, and execution of the Governance Charter.  
+Role: Provides strategic leadership and oversees NADD’s overall direction, regulatory engagement, and execution of the Governance Charter.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Regulatory compliance (Bank of Namibia, Ministry of Finance, etc.)  
 - Partnerships with financial institutions and government  
 - Expansion of NADD use cases across sectors (public & private)  
@@ -17,12 +19,27 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 2. Chief Financial Officer (CFO)
-**Reports to:** CEO, NADD and CFO, Abba Payments  
+Chief Business Development Officer (CBDO)
+-----------------------------------------
+Reports to: CEO, NADD  
 
-**Role:** Oversees reserve management (both on-ledger and fiat), financial reporting, and third-party audits.  
+Role: Leads partnership strategy, business development, and institutional onboarding.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
+- Strategic partnerships with banks, fintechs, and corporates  
+- Institutional adoption and integration of NADD  
+- Revenue and growth opportunities  
+- Coordination with marketing and policy teams  
+
+---
+
+Chief Financial Officer (CFO)
+------------------------------
+Reports to: CEO, NADD and CFO, Abba Payments  
+
+Role: Oversees reserve management (both on-ledger and fiat), financial reporting, and third-party audits.  
+
+Key Focus Areas:  
 - Hybrid Reserve Model implementation  
 - Treasury and liquidity management  
 - External audit coordination (quarterly & annual)  
@@ -30,12 +47,13 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 3. Head of Exchange Operations & Trading
-**Reports to:** CFO, NADD and CCRO (for compliance oversight)  
+Head of Exchange Operations & Trading
+-------------------------------------
+Reports to: CFO, NADD and CCRO (for compliance oversight)  
 
-**Role:** Oversees NADD’s centralized exchange (CEX) listings, liquidity management, and secondary market operations to ensure regulatory compliance and market integrity.  
+Role: Oversees NADD’s centralized exchange (CEX) listings, liquidity management, and secondary market operations to ensure regulatory compliance and market integrity.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Coordination with approved CEX platforms for NADD listings  
 - Market-making and liquidity management strategy  
 - Compliance with securities and exchange regulations (local & international)  
@@ -44,12 +62,13 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 4. Chief Technology Officer (CTO)
-**Reports to:** CEO, NADD and CTO, Abba Payments  
+Chief Technology Officer (CTO)
+-------------------------------
+Reports to: CEO, NADD and CTO, Abba Payments  
 
-**Role:** Leads blockchain infrastructure, cybersecurity, and integrations.  
+Role: Leads blockchain infrastructure, cybersecurity, and integrations.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Smart contract integrity and upgrades  
 - Integration with wallets, exchanges, and fintech platforms  
 - Oversight of the on-ledger reserve tracking system  
@@ -57,12 +76,13 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 5. Chief Compliance & Risk Officer (CCRO)
-**Reports to:** CEO, NADD and Compliance Committee (Abba Payments)  
+Chief Compliance & Risk Officer (CCRO)
+---------------------------------------
+Reports to: CEO, NADD and Compliance Committee (Abba Payments)  
 
-**Role:** Ensures compliance with regulatory frameworks, AML/KYC protocols, and risk management standards.  
+Role: Ensures compliance with regulatory frameworks, AML/KYC protocols, and risk management standards.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Coordination with regulators  
 - AML/CFT compliance and transaction monitoring  
 - Policy and internal audit enforcement  
@@ -70,12 +90,13 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 6. Chief Operating Officer (COO)
-**Reports to:** CEO, NADD  
+Chief Operating Officer (COO)
+-----------------------------
+Reports to: CEO, NADD  
 
-**Role:** Manages daily operations and internal processes to ensure efficiency, reliability, and scalability.  
+Role: Manages daily operations and internal processes to ensure efficiency, reliability, and scalability.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Reserve operations and settlements  
 - Coordination between technical and financial teams  
 - User onboarding and merchant integrations  
@@ -83,12 +104,13 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 7. Head of Policy & Public Affairs
-**Reports to:** CEO, NADD  
+Head of Policy & Public Affairs
+-------------------------------
+Reports to: CEO, NADD  
 
-**Role:** Leads stakeholder engagement, policy advocacy, and communications.  
+Role: Leads stakeholder engagement, policy advocacy, and communications.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Liaison with government agencies, industry bodies, and NGOs  
 - Drafting policy briefs and legislative proposals  
 - Public education and adoption campaigns  
@@ -96,12 +118,13 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 8. Communications & Media Director
-**Reports to:** CEO, NADD  
+Communications & Media Director
+-------------------------------
+Reports to: CEO, NADD  
 
-**Role:** Oversees NADD’s public image, media relations, and content strategy.  
+Role: Oversees NADD’s public image, media relations, and content strategy.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Press releases and brand communications  
 - Community updates and social media  
 - Investor and stakeholder relations  
@@ -109,12 +132,47 @@ Namibia Digital Dollar (**NADD**) operates as an independent division of **Abba 
 
 ---
 
-## 9. Board Liaison / Executive Secretary
-**Reports to:** CEO, NADD  
+Board Liaison / Executive Secretary
+----------------------------------
+Reports to: CEO, NADD  
 
-**Role:** Coordinates between NADD’s Executive Team and Abba Payments Board.  
+Role: Coordinates between NADD’s Executive Team and Abba Payments Board.  
 
-**Key Focus Areas:**  
+Key Focus Areas:  
 - Board meeting preparations and documentation  
 - Internal policy documentation and reporting  
 - Governance recordkeeping
+
+🏛️ Executive Management Structure Flow  
+==================================
+
+CEO, NADD
+----------
+Reports to: CEO, Abba Payments
+
+    ├── Chief Business Development Officer (CBDO)
+    │   Reports to: CEO, NADD
+    │   └── Key Focus: Strategic Partnerships & Institutional Onboarding
+    │
+    ├── Chief Financial Officer (CFO)
+    │   Reports to: CEO, NADD and CFO, Abba Payments
+    │   └── Head of Exchange Operations & Trading
+    │       Reports to: CFO, NADD and CCRO
+    │
+    ├── Chief Technology Officer (CTO)
+    │   Reports to: CEO, NADD and CTO, Abba Payments
+    │
+    ├── Chief Compliance & Risk Officer (CCRO)
+    │   Reports to: CEO, NADD and Compliance Committee
+    │
+    ├── Chief Operating Officer (COO)
+    │   Reports to: CEO, NADD
+    │
+    ├── Head of Policy & Public Affairs
+    │   Reports to: CEO, NADD
+    │
+    ├── Communications & Media Director
+    │   Reports to: CEO, NADD
+    │
+    └── Board Liaison / Executive Secretary
+        Reports to: CEO, NADD
