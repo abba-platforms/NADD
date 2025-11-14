@@ -3,10 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 ![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
 
-## NADD Token Draft
-
-![NADD Coin](media/naddtoken.jpg)
-
 # 🚀 Press Release: NADD Mainnet Deployment
 
 The **Namibia Digital Dollar (NADD)** — Namibia’s first blockchain-native stablecoin — has been **successfully deployed and verified on the Binance Smart Chain (BSC) Mainnet**.  
@@ -18,7 +14,7 @@ NADD represents a groundbreaking step in Namibia’s digital finance journey, of
 
 ---
 
-## 📘 Namibia Digital Dollar (NADD) — Mainnet Deployment  
+## 📘 NADD Mainnet Deployment  
 
 The **Namibia Digital Dollar (NADD)** is deployed and verified on **Binance Smart Chain Mainnet** as a fully upgradeable ERC20 stablecoin with governance and timelock control.  
 
@@ -77,6 +73,21 @@ NADD Labs Ltd ensures a **hybrid reserve model** combining **fiat reserves** (he
 The system includes audit mechanisms, real-time dashboards, attestation updates, and smart contract enforcement to prevent over-issuance, ensuring transparency, compliance, and accountability.  
 
 📄 Full details: [NADD Custodian Connectivity](./NADD_CUSTODIAN_CONNECTIVITY.md)
+
+----------
+
+## NADD ATM Deployment Plan
+
+This document outlines the strategy for deploying a nationwide network of **Blockchain-Connected NADD ATMs**, bridging the gap between cash-based communities and digital finance in Namibia.  
+
+Key Highlights:
+
+- **User Experience:** Simple cash ↔ NADD transactions via smart-contract connected ATMs.  
+- **Rollout:** Phased deployment from Pilot to National and Cross-Border coverage.  
+- **Compliance:** Tiered KYC, AML/CFT monitoring, and real-time reporting.  
+- **Revenue & Impact:** Service fees, merchant partnerships, wider adoption, and financial inclusion.
+  
+For full technical, operational, and financial details, see [NADD_ATM_PLAN.md](./NADD_ATM_PLAN.md).
 
 ----------
 
