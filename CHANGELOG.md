@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] – 2025-11-14
+
+### Added
+- NADD ATM Deployment Summary added to README
+  - Provides high-level overview of NADD Blockchain-Connected ATMs
+  - Covers user experience, phased rollout, regulatory compliance, and revenue model
+  - Links to full detailed plan in `NADD_ATM_PLAN.md` for in-depth technical, operational, and financial information
+ 
+----------
+
 ## [v1.0.10] - 2025-11-12
 ### Added
 - Complete NADD Executive Management Structure in ASCII markdown format.
