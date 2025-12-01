@@ -21,7 +21,7 @@ The **Namibia Digital Dollar (NADD)** is deployed and verified on **Binance Smar
 This deployment represents the production-ready version of NADD, designed to serve as a regulated digital currency pegged to the Namibian Dollar. It incorporates advanced features including upgradeability, role-based access control, pausing mechanisms, and timelock governance to ensure security and flexibility.  
 
 **BSC Mainnet Verified Contract Address:**  
-`0x0a8f5C56049166b535E698a222d7387b48b7A29E`
+`0x32629ec2534dd50380f667AB67A828F2cB24553e`
 
 You can interact with NADD using BEP-20 compatible wallets such as MetaMask, Trust Wallet, and others that support Binance Smart Chain tokens.  
 
@@ -239,7 +239,7 @@ It includes:
 
 ## Token Economics
 
--   **Peg:** 1 NADD = 1 NAD (aimed).
+-   **Peg:** 1 NADD = 1 NAD.
 -   **Minting:** Tokens are minted only when a verified fiat deposit certificate (signed by an authorized custodian) is presented to the contract and executed by a MINTER (multisig recommended).
 -   **Burning:** Tokens are burned on redemption requests when custodial processes confirm fiat withdrawal.
 -   **Reserve Management:** Custodial bank accounts hold reserves; ReserveAttestationOracle publishes attestations and links to audit reports.
@@ -463,7 +463,7 @@ npx hardhat run scripts/deploy.ts --network bsctest
 
 The deploy script will:
 
--   Deploy `NADDtoken` and `ReserveAttestationOracle`
+-   Deploy `NADD` and `ReserveAttestationOracle`
 -   Set initial admin roles (for testnet deployer)
 -   Optionally grant CUSTODIAN_ROLE to a test key (not for production)
 
@@ -555,7 +555,7 @@ NADD is a regulated-stablecoin initiative. Nothing in this repository constitute
 
 **Simon Kapenda**  
 Founder & Creator — Abba Payments Ltd., Oshakati, Namibia  
-Creator & Developer of: CillarCoin ($CILLAR), AFRX Security Token ($AFRX), $ENGLISH MEMECOIN, Abba App, Angola Digital Kwanza (AOAk), and Zimbabwe Digital Dollar (ZDD).  
+Creator & Developer of: CillarCoin ($CILLAR), SACE Index ($SACE), AFRX Security Token ($AFRX), $ENGLISH MEMECOIN, Abba App, Angola Digital Kwanza ($AOAk), and Zimbabwe Digital Dollar ($ZDD).  
 LinkedIn: [https://linkedin.com/in/simonkapenda](https://linkedin.com/in/simonkapenda)
 
 ----------
