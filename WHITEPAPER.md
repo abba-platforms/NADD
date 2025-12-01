@@ -11,7 +11,7 @@ NADD integrates regulatory-compliant smart contracts with existing banking infra
 Fully backed by reserve assets in accordance with the **NADD Governance Charter**, NADD ensures a stable peg, trust, and regulatory compliance. The Governance Charter establishes the operational framework, reserve management rules, upgrade protocols, and stakeholder oversight mechanisms that secure NADD’s stability and reliability.  
 
 NADD has been deployed and verified on **Binance Smart Chain (BSC) Mainnet** at address:  
-**`0x0a8f5C56049166b535E698a222d7387b48b7A29E`**  
+**`0x32629ec2534dd50380f667AB67A828F2cB24553e`**  
 
 This Mainnet deployment marks the launch of NADD as a **fully operational digital currency**, available for use in BEP-20 compatible wallets such as MetaMask, Trust Wallet, and others. It is now governed under the NADD Governance Charter, ensuring compliance, security, and sustainability for all transactions and use cases.
 
@@ -79,7 +79,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 
 ### 4.1 Blockchain and Smart Contracts
 - **Blockchain Network:** Binance Smart Chain (BSC) Mainnet.  
-- **Verified Contract Address:** `0x0a8f5C56049166b535E698a222d7387b48b7A29E`  
+- **Verified Contract Address:** `0x32629ec2534dd50380f667AB67A828F2cB24553e`  
 - **Smart Contracts:** Role-based contracts implementing minting, burning, pausing, auditing, and custodial functionalities.  
 - **EIP-712 Integration:** Enables secure off-chain authorization for deposits and transfers.  
 - **Access Control:**  
@@ -164,7 +164,7 @@ NADD is designed for **high security, transparency, and regulatory compliance**,
 
 **Phase 3: Mainnet Deployment**  
 - Deploy NADD on production blockchain after sandbox approval.
-- Verified Contract Address: '0x0a8f5C56049166b535E698a222d7387b48b7A29E'
+- Verified Contract Address: `0x32629ec2534dd50380f667AB67A828F2cB24553e`
 - Launch Abba App integration for P2P payments and merchant services.  
 - Begin pilot programs with local banks and government.  
 
