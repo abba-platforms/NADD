@@ -17,7 +17,7 @@ You can use any wallet that supports **BNB Smart Chain**, such as:
 If not already connected, open **MetaMask → Settings → Networks → Add Network**, and enter:  
 
 **Network Name:** BNB Smart Chain  
-**Token Contract Address:** `0x0a8f5C56049166b535E698a222d7387b48b7A29E`  
+**Token Contract Address:** `0x32629ec2534dd50380f667AB67A828F2cB24553e`  
 **RPC URL:** [https://bsc-dataseed.binance.org](https://bsc-dataseed.binance.org)  
 **Chain ID:** 56  
 **Currency Symbol:** BNB  
@@ -31,11 +31,11 @@ If not already connected, open **MetaMask → Settings → Networks → Add Netw
 
 To view your **NADD balance**, manually add the token using these details:  
 
-**Token Contract Address:** `0x0a8f5C56049166b535E698a222d7387b48b7A29E`  
+**Token Contract Address:** `0x32629ec2534dd50380f667AB67A828F2cB24553e`  
 **Token Symbol:** NADD  
 **Decimals:** 18  
 
-📄 **Verified on BSCScan:** [https://bscscan.com/token/0x0a8f5C56049166b535E698a222d7387b48b7A29E](https://bscscan.com/token/0x0a8f5C56049166b535E698a222d7387b48b7A29E)  
+📄 **Verified on BSCScan:** [https://bscscan.com/token/0x32629ec2534dd50380f667AB67A828F2cB24553e](https://bscscan.com/token/0x32629ec2534dd50380f667AB67A828F2cB24553e)  
 
 ---
 
