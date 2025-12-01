@@ -75,7 +75,7 @@ NADD is designed to integrate with:
 
 ## BSC Mainnet Verified Contract
 
-- **Contract Address:** `0x0a8f5C56049166b535E698a222d7387b48b7A29E`  
+- **Contract Address:** `0x32629ec2534dd50380f667AB67A828F2cB24553e`  
 - **Documentation & Codebase:** [NADD GitHub Repository](https://github.com/abba-platforms/nadd)
 
 ---
@@ -94,5 +94,5 @@ NADD is designed to integrate with:
 
 For inquiries, partnerships, or technical integrations:
 
-- **Email:** partners@abbapp.com  
+- **Email:** partners@nadd.io  
 - **Repository:** [https://github.com/abba-platforms/nadd](https://github.com/abba-platforms/nadd)
