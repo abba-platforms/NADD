@@ -109,7 +109,7 @@ As the oil and gas sector defines the nation’s next economic chapter, the inte
 
 **Contact:**  
 Abba Payments Ltd.  
-📧 partners@nadd.io 
+📧 partners@nadd.io       
 🌐 [https://www.nadd.io](https://www.nadd.io)  
 
 © 2025 Abba Payments Ltd. Created by Simon Kapenda. All rights reserved.
