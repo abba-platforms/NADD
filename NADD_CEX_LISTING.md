@@ -19,7 +19,7 @@ NADD integrates regulatory-compliant smart contracts with existing banking infra
 NADD is fully backed by on-ledger reserve assets in accordance with the NADD Governance Charter, ensuring a stable peg and fostering trust. NADD also lays the foundation for advanced digital financial products, including lending, tokenized savings, and social disbursement programs.  
 
 NADD has been successfully deployed and verified on **Binance Smart Chain (BSC) Mainnet** at address:  
-**`0x0a8f5C56049166b535E698a222d7387b48b7A29E`**  
+**`0x32629ec2534dd50380f667AB67A828F2cB24553e`**  
 
 This represents a full production launch in accordance with the NADD Governance Charter, enabling real-world use cases in payments, savings, and programmable financial services.  
 
@@ -135,8 +135,8 @@ These funds will cover listing fees, liquidity provisioning for the NADD/USDT pa
 
 ## Slide 12 — Contact & Team
 **NADD Project Team**  
-Website: [nadd.io](#)  
-Email: operations@nadd.io  
+Website: [nadd.io](https://nadd.io/)  
+Email: admin@nadd.io  
 Prepared by: NADD Strategy & Operations  
 Date: October 2025
 
@@ -144,5 +144,5 @@ Date: October 2025
 
 ## Slide 13 — Appendix
 - Technical specifications of NADD token (BEP-20).
-- Verified contract address on BSC Mainnet: `0x0a8f5C56049166b535E698a222d7387b48b7A29E`.
+- Verified contract address on BSC Mainnet: `0x32629ec2534dd50380f667AB67A828F2cB24553e`.
 - Governance Charter & compliance framework.
