@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] – 2025-12-01
+
+### Changed
+- NADD contract reference updated: All scripts and repo references now point to the NADD Proxy Address (0x32629ec2534dd50380f667AB67A828F2cB24553e) instead of the previous Implementation address (0x0a8f5C56049166b535E698a222d7387b48b7A29E).
+- This ensures all interactions (minting, approvals, and governance actions) go through the upgradeable proxy rather than the standalone implementation.
+
+### Added
+- Initial large mint workflow successfully executed: 18,000,000 NADD minted.
+- Large mint approvals tested and executed via governance workflow.
+
+### Notes
+- For any future scripts or automation, always reference NADD Proxy Address.
+- Liquidity pool setup on PancakeSwap planned with 2,000,000 NADD ≈ 108,000 USDT.
+
+----------
+
 ## [v1.0.10] – 2025-11-14
 
 ### Added
