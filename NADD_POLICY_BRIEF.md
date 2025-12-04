@@ -1,4 +1,4 @@
-# Namibia Digital Dollar (NADD)
+# Namibia Digital Dollar (NADD) - Policy Brief
 Comprehensive Policy, Regulatory, Market, and Operational Document     
 By [Simon Kapenda](https://linkedin.com/in/simonkaoenda), NADD Creator     
 Version 2.1     
