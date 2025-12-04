@@ -99,6 +99,14 @@ For full details, see [NADD_VALUATION.md](./NADD_VALUATION.md)
 
 ----------
 
+## 📘 NADD Policy Brief: Comprehensive Policy, Regulatory, Market, and Operations
+
+For the full detailed analysis — including NADD fundamentals, regulatory context, economic impact, foreign capital repatriation challenges, and how NADD addresses them — read the complete policy brief here:
+
+➡️ [NADD_POLICY_BRIEF.md](./NADD_POLICY_BRIEF.md)
+
+----------
+
 ### 🇳🇦 NADD Policy Brief: Role in Namibia’s Oil & Gas Industry
 
 The **Namibia Digital Dollar (NADD)** — the nation’s first blockchain-native stablecoin — is pegged 1:1 to the Namibian Dollar and backed by **hybrid on-ledger and fiat reserves**.  
