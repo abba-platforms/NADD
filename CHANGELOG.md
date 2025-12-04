@@ -4,6 +4,38 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.0.10] – [2025-12-04]
+
+### Added
+- Added NADD_POLICY_BRIEF.md containing the full blended policy/regulatory/market document.
+- Added backlink to NADD_POLICY_BRIEF.md in the README.
+- Added “Namibia Digital Dollar” as the My Name Tag on BscScan.
+- Added Private Note explaining that NADD is a BEP-20 stablecoin pegged 1:1 to NAD for BscScan submission.
+
+### Updated
+- Updated repository to replace the NADD Implementation address with the correct NADD Proxy address (0x32629ec2534dd50380f667AB67A828F2cB24553e).
+- Updated Token Update Application Form details for BscScan.
+- Updated README to include reference to the NADD policy brief.
+
+### Minting and Network Activity
+- Minted 18,000,000 NADD on BSC Mainnet.
+- Conducted live mainnet tests of NADD transfers and payments using real NADD amounts (1:1 with NAD).
+- Prepared allocation of 2,000,000 NADD for future PancakeSwap liquidity pool (pending USDT pairing).
+
+### Communications
+- Drafted public summary for LinkedIn and Facebook regarding today's NADD minting and system readiness.
+- Drafted public content explaining what users can do with their NADD.
+- Drafted NADD giveaway announcement: 1,000,000 NADD (100 NADD each to 10,000 Namibians).
+- Drafted shortened version for X/Twitter publication.
+- Drafted corrected email to Bank of Namibia Innovation Hub providing the correct NADD Proxy address.
+- Drafted analysis content explaining foreign-company capital outflows, repatriation processes, costs, and how NADD can reduce friction.
+
+### Other
+- Performed full elaboration and expansion of the policy brief based on prior content.
+- Ensured no content truncation across all drafted documents.
+
+----------
+
 ## [v1.0.10] – 2025-12-01
 
 ### Changed
