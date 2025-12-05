@@ -1,9 +1,9 @@
-# NADD FOR OIL AND GAS IN NAMIBIA — Policy Brief  
+# OIL AND GAS IN NAMIBIA — NADD POLICY BRIEF  
 ## The Role of the Namibia Digital Dollar (NADD) in Namibia’s Emerging Oil and Gas Economy  
 
 **Issued by:** Abba Payments Ltd.  
 **Date:** October 2025  
-**Prepared by:** Simon Kapenda, Creator of NADD  
+**Prepared by:** [Simon Kapenda](https://linkedin.com/in/simonkapenda), Creator of NADD  
 
 ---
 
@@ -107,8 +107,18 @@ As the oil and gas sector defines the nation’s next economic chapter, the inte
 
 ---
 
-**Contact:**  
-Abba Payments Ltd.  
+## Appendix: URLs
+- NADD Website: https://nadd.io
+- NADD Economy: https://github.com/abba-platforms/NADD/blob/main/ECONOMY_OF_NADD.md   
+- NADD Whitepaper: https://github.com/abba-platforms/NADD/blob/main/WHITEPAPER.md    
+- NADD Oil and Gas Policy Brief: https://github.com/abba-platforms/NADD/blob/main/NADD_OIL_AND_GAS_POLICY_BRIEF.md    
+- NADD Policy Brief: https://github.com/abba-platforms/NADD/blob/main/NADD_POLICY_BRIEF.md    
+- NADD Documentation & Codebase: https://github.com/abba-platforms/NADD    
+
+----
+
+## Contact:  
+NADD Labs Ltd.  
 📧 partners@nadd.io       
 🌐 [https://www.nadd.io](https://www.nadd.io)  
 
