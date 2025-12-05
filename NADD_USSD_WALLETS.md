@@ -83,16 +83,18 @@ This ensures that **NADD is not restricted to smartphone users**, achieving univ
 A USSD NADD Wallet requires the following infrastructure:
 
 ```
-┌───────────────────┐     ┌─────────────────────┐     ┌────────────────────────┐
-│ Mobile Network    │ <─► │ NADD USSD           │ <─► │ NADD Core Ledger       │
-│ USSD Gateway      │     │ Middleware          │     │ (Off-chain + On-chain) │
-└───────────────────┘     └─────────────────────┘     └────────────────────────┘
-           │                        │                           │
-           ▼                        ▼                           ▼
-┌───────────────────┐     ┌─────────────────────┐     ┌──────────────────────┐
-│ Users (Feature    │     │ Identity &          │     │ Banking & Agents     │ 
-│ Phones)           │     │ Compliance Layer    │     │ Integration          │
-└───────────────────┘     └─────────────────────┘     └──────────────────────┘
+┌───────────────────┐     +------------------+   +------------------+   +------------------+
+| Mobile Network   |-> | NADD USSD        |-> | NADD Core        |
+| USSD Gateway     |   | Middleware       |   | Ledger           |
++------------------+   +------------------+   +------------------+
+
+           |                    |                    |
+           v                    v                    v
+
++------------------+   +------------------+   +------------------+
+| Users (Feature   |   | Identity &       |   | Banking &        |
+| Phones)          |   | Compliance Layer |   | Agents Network   |
++------------------+   +------------------+   +------------------+
 ```
 ### Components Description:
 
@@ -313,7 +315,7 @@ USSD Wallet users can **load their wallets** with NADD via multiple channels:
 - Instant micro-remittances
 
 **Profit Repatriation:**
-- Foreign companies convert NADD → NAD → USD/EUR with lower overhead
+- Foreign companies convert NAD → NADD → USD/EUR with lower overhead
 - Fund flows auditable on-chain
 - Eliminates traditional cross-border banking delays
 - Faster settlements and lower FX fees
