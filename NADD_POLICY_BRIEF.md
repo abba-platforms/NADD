@@ -356,9 +356,14 @@ Appendix C: References
 - Abba Payments Namibia Internal Reports
 
 Appendix D: URLs
+- 
+**Appendix A: URLs**
 - NADD Website: https://nadd.io
-- Documentation & Codebase: https://github.com/abba-platforms/NADD
-
+- NADD Economy: https://github.com/abba-platforms/NADD/blob/main/ECONOMY_OF_NADD.md   
+- NADD Whitepaper: https://github.com/abba-platforms/NADD/blob/main/WHITEPAPER.md    
+- NADD Oil and Gas Policy Brief: https://github.com/abba-platforms/NADD/blob/main/NADD_OIL_AND_GAS_POLICY_BRIEF.md    
+- NADD Policy Brief: https://github.com/abba-platforms/NADD/blob/main/NADD_POLICY_BRIEF.md    
+- NADD Documentation & Codebase: https://github.com/abba-platforms/NADD    
 ---
 
 ## End of Document
