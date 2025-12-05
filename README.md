@@ -107,7 +107,7 @@ For the full detailed analysis — including NADD fundamentals, regulatory conte
 
 ----------
 
-### 🇳🇦 NADD Policy Brief: Role in Namibia’s Oil & Gas Industry
+### 📘 NADD Policy Brief: Role in Namibia’s Oil & Gas Industry
 
 The **Namibia Digital Dollar (NADD)** — the nation’s first blockchain-native stablecoin — is pegged 1:1 to the Namibian Dollar and backed by **hybrid on-ledger and fiat reserves**.  
 In light of Namibia’s emerging **oil and gas discoveries**, this policy brief explores how NADD can facilitate **efficient, transparent, and compliant financial infrastructure** to support the sector’s growth.  
@@ -125,7 +125,29 @@ This integration framework enables **secure, instant, and inclusive digital paym
 
 📄 Read the full technical paper: [Integrating NADD into Namibia’s National Payment Infrastructure](https://github.com/abba-platforms/NADD/blob/main/technical/NADD_INTEGRATION_INFRASTRUCTURE.md)
 
-----------
+---
+
+## NADD USSD Wallet Framework
+
+The **NADD USSD Wallet Framework** enables any Namibian — including users without smartphones
+or internet access — to store, send, receive, and transact using the Namibia Digital Dollar (NADD).  
+It provides nationwide financial inclusion using a secure *offline-first* mobile channel that works
+on all feature phones through a simple USSD short code.
+
+**The framework defines:**
+
+- Full USSD wallet architecture (MNO gateway, middleware, ledger)
+- User registration, PIN security, and identity validation
+- Cash-in and cash-out via agents and NADD ATMs
+- Merchant payments, bill payments, and salary/grant disbursements
+- Interoperability with smartphone wallets
+- Government, SME, enterprise, and cross-border use cases
+- Economic and financial inclusion benefits for rural users
+
+Read the full technical and operational specification here:  
+➡️ **[NADD_USSD_WALLETS.md](./NADD_USSD_WALLETS.md)**
+
+----
 
 ## NADD Reserve Model
 
