@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.1.0] - 2025-12-26
+
+### Added
+- NADD v4 upgrade implementing hybrid reserve model (40% on-chain, 60% off-chain fiat-backed).
+- Integration with external ReserveRegistry contract; governance-controlled linking.
+- NADDReserveVerifier contract for independent, read-only compliance verification.
+- Appendix C ASCII diagrams showing:
+  - NADD → ReserveRegistry → NADDReserveVerifier flow
+  - Governance update flow
+- Non-technical explanatory expansion for easier understanding of token upgrade.
+- Documented ReserveRegistry proxy and implementation addresses:
+  - Proxy: 0xb1b48E34d95e5f7CE9F1D6c8aD43B59946530a28
+  - Implementation: 0xbF1d0FF46DE616Ce54fc9e994FB00eace8933B02
+
+### Changed
+- Detailed deployment, upgrade, and compliance verification procedures added to documentation.
+- Governance instructions for ReserveRegistry linking and fiat reserve proof publication.
+
+### Fixed
+- None; upgrade is fully additive and non-invasive.
+
+### Notes
+- Token balances, allowances, and mint logic remain unchanged.
+- Fiat reserve attestation is pending; compliance verification correctly evaluates as false until proof is published.
+- Full technical details available at: [NADD ReserveRegistry Technical Summary](https://github.com/abba-platforms/NADD/blob/main/NADD_RESERVE_REGISTRY.md)
+
+----------
+
 ## [v1.0.10] – [2025-12-04]
 
 ### Added
