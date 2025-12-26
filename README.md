@@ -30,6 +30,24 @@ You can interact with NADD using BEP-20 compatible wallets such as MetaMask, Tru
 
 ----------
 
+## NADD v4 Upgrade & ReserveRegistry
+
+NADD (Namibia Digital Dollar) is a live ERC20-compatible token deployed on BNB Smart Chain.  
+The NADD v4 upgrade introduces a hybrid reserve model linking on-chain token balances to an external ReserveRegistry contract, while keeping all existing balances intact.  
+
+Key points:
+
+- **Hybrid reserve model:** 40% on-chain, 60% off-chain fiat-backed reserves  
+- **Non-invasive UUPS upgrade:** No changes to token storage, balances, or mint logic  
+- **External ReserveRegistry:** Stores declared fiat reserves, linked via governance  
+- **Compliance verifier:** Read-only contract enabling independent verification of reserves  
+- **Operational status:** Token live, upgrade complete, ReserveRegistry linked, fiat proof pending  
+
+For full technical details, diagrams, and governance instructions, see the official document:  
+[NADD ReserveRegistry Technical Summary](https://github.com/abba-platforms/NADD/blob/main/NADD_RESERVE_REGISTRY.md)
+
+----------
+
 ## 🪙 Add NADD to Your Wallet
 
 You can now easily add the **Namibia Digital Dollar (NADD)** to your BEP-20 compatible wallet and start using it for digital payments, transfers, and merchant transactions.
