@@ -7,6 +7,23 @@ Its core mission is to modernize payments, enable real-time digital transactions
 
 NADD is designed with **hybrid reserves**, combining **on-ledger assets** and **fiat reserves** to ensure stability, transparency, and liquidity for users, merchants, and financial institutions.
 
+### On-ledger Reserve Model (Summary)
+
+The **on-ledger reserve model** represents the blockchain-native component of NADD’s backing structure.  
+It consists of reserves that are declared, tracked, and verifiable directly on-chain, using smart contracts rather than manual reporting or opaque disclosures.
+
+Key characteristics of the on-ledger reserve model include:
+
+- Reserves are recorded in a dedicated **ReserveRegistry** contract.
+- Reserve data is publicly readable and independently verifiable.
+- No token balances or supply mechanics are altered by reserve tracking.
+- Reserve verification is separated from token logic for safety and auditability.
+- Compliance is **measured**, not enforced, enabling transparent oversight.
+
+This design ensures that a portion of NADD’s backing is continuously visible on the blockchain, providing cryptographic transparency and reducing reliance on trust-based attestations.
+
+Full technical details of the on-ledger reserve architecture, governance controls, and compliance verification are documented at: [NADD On-ledger Reserve Registry](https://github.com/abba-platforms/NADD/blob/main/NADD_RESERVE_REGISTRY.md)
+
 ---
 
 ## Reserve Composition
