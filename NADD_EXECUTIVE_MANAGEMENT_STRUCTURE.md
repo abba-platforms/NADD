@@ -7,7 +7,7 @@ Namibia Digital Dollar (NADD) operates as an independent division of Abba Paymen
 
 CEO, NADD
 ---------
-Reports to: CEO, Abba Payments  
+Reports to: CEO, Abba Holdings Ltd.
 
 Role: Provides strategic leadership and oversees NADD’s overall direction, regulatory engagement, and execution of the Governance Charter.  
 
@@ -35,7 +35,7 @@ Key Focus Areas:
 
 Chief Financial Officer (CFO)
 ------------------------------
-Reports to: CEO, NADD and CFO, Abba Payments  
+Reports to: CEO, NADD and CFO, Abba Holdings Ltd.
 
 Role: Oversees reserve management (both on-ledger and fiat), financial reporting, and third-party audits.  
 
@@ -64,7 +64,7 @@ Key Focus Areas:
 
 Chief Technology Officer (CTO)
 -------------------------------
-Reports to: CEO, NADD and CTO, Abba Payments  
+Reports to: CEO, NADD and CTO, Abba Holdings Ltd.
 
 Role: Leads blockchain infrastructure, cybersecurity, and integrations.  
 
@@ -78,7 +78,7 @@ Key Focus Areas:
 
 Chief Compliance & Risk Officer (CCRO)
 ---------------------------------------
-Reports to: CEO, NADD and Compliance Committee (Abba Payments)  
+Reports to: CEO, NADD and Compliance Committee (Abba Holdings Ltd.)  
 
 Role: Ensures compliance with regulatory frameworks, AML/KYC protocols, and risk management standards.  
 
@@ -136,7 +136,7 @@ Board Liaison / Executive Secretary
 ----------------------------------
 Reports to: CEO, NADD  
 
-Role: Coordinates between NADD’s Executive Team and Abba Payments Board.  
+Role: Coordinates between NADD’s Executive Team and Abba Holdings Ltd. Board.  
 
 Key Focus Areas:  
 - Board meeting preparations and documentation  
@@ -148,19 +148,19 @@ Key Focus Areas:
 
 CEO, NADD
 ----------
-Reports to: CEO, Abba Payments
+Reports to: CEO, Abba Holdings 
 
     ├── Chief Business Development Officer (CBDO)
     │   Reports to: CEO, NADD
     │   └── Key Focus: Strategic Partnerships & Institutional Onboarding
     │
     ├── Chief Financial Officer (CFO)
-    │   Reports to: CEO, NADD and CFO, Abba Payments
+    │   Reports to: CEO, NADD and CFO, Abba Holdings 
     │   └── Head of Exchange Operations & Trading
     │       Reports to: CFO, NADD and CCRO
     │
     ├── Chief Technology Officer (CTO)
-    │   Reports to: CEO, NADD and CTO, Abba Payments
+    │   Reports to: CEO, NADD and CTO, Abba Holdings 
     │
     ├── Chief Compliance & Risk Officer (CCRO)
     │   Reports to: CEO, NADD and Compliance Committee
