@@ -1,7 +1,7 @@
 🏛️ NADD Executive Management Structure
 ======================================
 
-Namibia Digital Dollar (NADD) operates as an independent division of Abba Payments Namibia (Pty) Ltd., with its own executive management and governance framework. While NADD aligns with the broader strategic objectives of Abba Payments, it maintains operational autonomy to ensure transparency, compliance, and accountability in the issuance, management, and stability of the digital currency.
+Namibia Digital Dollar (NADD) operates as a digital asset brand of NADD Labs (Pty) Ltd., a subsidiary of Abba Holdings Ltd., with dedicated executive management and an independent governance framework. While NADD aligns with the broader strategic objectives of Abba Holdings Ltd., it retains operational autonomy to ensure transparency, accountability, and prudent management in the issuance, operation, and stability of NADD.
 
 ---
 
