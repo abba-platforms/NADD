@@ -3,6 +3,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![Built with Solidity](https://img.shields.io/badge/built%20with-Solidity-363636) ![ERC-20 Compliant](https://img.shields.io/badge/ERC--20-Compliant-brightgreen) [![Security Policy](https://img.shields.io/badge/Security-Policy-blue.svg)](SECURITY.md)
 ![Creator](https://img.shields.io/badge/Creator-Simon%20Kapenda-lightgrey.svg)
 
+# NADD Coin
+
+The Official Namibia Digital Dollar (NADD) coin branding asset.  
+This symbol represents Namibia’s first blockchain-native stablecoin, pegged 1:1 to the Namibian Dollar (NAD), designed for secure, fast, and interoperable wallet-to-wallet digital payments across Namibia and beyond.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abba-platforms/NADD/main/branding/nadd-coin.jpg" width="420" />
+</p>
+
+---
+
 # 🚀 Press Release: NADD Mainnet Deployment
 
 The **Namibia Digital Dollar (NADD)** — Namibia’s first blockchain-native stablecoin — has been **successfully deployed and verified on the Binance Smart Chain (BSC) Mainnet**.  
