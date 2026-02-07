@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.1.0] – 2026-02-07
+
+### Added
+Added the official NADD Coin image to the branding/ folder (branding/nadd-coin.jpg).
+
+Updated README.md to display the NADD Coin image with a brief description, showcasing Namibia Digital Dollar (NADD) branding for documentation and promotional use.
+
+---
+
 ## [v1.1.0] - 2025-12-26
 
 ### Added
