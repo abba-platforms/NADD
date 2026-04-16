@@ -95,6 +95,20 @@ NADD is built for safety, compliance, and programmability. It integrates with al
 
 ----------
 
+## NADD x USDT Integration Framework
+
+The NADD x USDT framework defines a dual-layer settlement architecture in which:
+
+- NADD operates as the NAD-denominated on-chain settlement layer for domestic and regional economic activity  
+- USDT operates as the USD-denominated liquidity bridge for global settlement and cross-border routing  
+
+This model enables real-time conversion between local currency execution and global liquidity without reliance on correspondent banking systems, supporting use cases such as trade settlement, treasury operations, and oil and gas supply chain payments.
+
+Read the full integration framework:  
+[NADD_USDT.md](./NADD_USDT.md)
+
+---
+
 ## Custodian Bank Connectivity
 
 NADD Labs Ltd ensures a **hybrid reserve model** combining **fiat reserves** (held with licensed custodian banks) and **on-ledger tokenized reserves**. This integration maintains a **1:1 parity with the Namibian Dollar (NAD)** while enabling programmable digital transactions. 
