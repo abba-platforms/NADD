@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.1.1] – 2026-04-16
+
+### Added
+- Full NADD x USDT Integration Framework (NADD_USDT.md), defining a dual-layer settlement architecture with NADD as the NAD-denominated execution layer and USDT as the USD-denominated global liquidity bridge
+- Detailed system design covering transaction routing, liquidity architecture, reserve structure, and settlement mechanics
+- Oil and gas settlement model, including contractor payments, supply chain flows, and treasury execution within Namibia
+- Walvis Bay positioning as a physical logistics gateway and digital settlement node
+- Cross-border corridor architecture leveraging USDT for routing between regional stablecoin systems
+- Treasury system transformation framework enabling real-time dual-layer liquidity management
+- Redemption and liquidity stability model anchored in fiat reserves with on-chain execution support
+- Policy and system boundaries preserving monetary sovereignty and regulatory alignment
+- Operating model defining roles across issuer, custodians, liquidity providers, exchanges, and verification layers
+- Strategic positioning of Namibia as a Southern Africa entry point for USD liquidity
+- Phased commercialization path from liquidity formation to regional expansion
+- README update with summary and direct link to the NADD x USDT Integration Framework
+
+---
+
 ## [v1.1.0] – 2026-02-07
 
 ### Added
