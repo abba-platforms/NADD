@@ -119,6 +119,17 @@ The system includes audit mechanisms, real-time dashboards, attestation updates,
 
 ----------
 
+## NADD Pay Interface
+
+NADD Pay is the WhatsApp-native access layer for the Namibia Digital Dollar (NADD), enabling users to send, receive, and transact with NADD through a familiar messaging interface while maintaining full integration with the underlying financial infrastructure.
+
+The NADD Pay System Specification (v2.0) defines the architecture, transaction model, and control framework governing this interface. It outlines how user interactions are translated into deterministic, auditable financial operations within the NADD system, covering ledger integrity, transaction lifecycle, risk controls, and external settlement.
+
+Read the full whitepaper:  
+https://github.com/abba-platforms/NADD/blob/main/NADD_PAY_WHITEPAPER.md
+
+---
+
 ## NADD ATM Deployment Plan
 
 This document outlines the strategy for deploying a nationwide network of **Blockchain-Connected NADD ATMs**, bridging the gap between cash-based communities and digital finance in Namibia.  
