@@ -4,6 +4,26 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [v1.1.1] - 2026-05-04
+
+### Added
+
+- NADD Pay Whitepaper (v2.0) added to the repository  
+  - Introduces a full institutional-grade whitepaper for NADD Pay  
+  - Defines system architecture, transaction lifecycle, ledger model, risk controls, and settlement framework  
+  - Establishes NADD Pay as the WhatsApp-native access layer for interacting with NADD  
+
+- README updated with NADD Pay overview and whitepaper reference  
+  - Adds a concise introduction explaining NADD Pay before technical context  
+  - Includes direct backlink to the NADD Pay whitepaper for improved accessibility and discoverability  
+
+### Notes
+
+- This update is documentation-focused and does not introduce changes to system logic, smart contracts, or core NADD functionality  
+- Version number remains unchanged in line with documentation-only updates
+
+---
+
 ## [v1.1.1] – 2026-04-16
 
 ### Added
