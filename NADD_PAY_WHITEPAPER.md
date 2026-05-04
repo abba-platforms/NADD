@@ -1,53 +1,190 @@
 # NADD Pay Whitepaper  
-## Version 2.0 — Institutional Release  
 ### WhatsApp-Native Service Interface of the Namibia Digital Dollar (NADD)     
-### Author: [Simon Kapenda](https://linkedin.com/in/simonkapenda)   
-### Company: NADD Labs (Pty) Ltd.   
-### Date: May 3, 2026   
 
 ---
 
-## LEGAL AND REGULATORY NOTICE
+## 1. DOCUMENT CONTROL
 
-This document describes NADD Pay, a WhatsApp-native service interface of the Namibia Digital Dollar (NADD) system. NADD is a privately issued, blockchain-native digital representation of value referencing the Namibian Dollar (NAD), operating on BNB Smart Chain under a defined governance and reserve framework.
+**Author:** [Simon Kapenda](https://linkedin.com/in/simonkapenda), NADD Creator   
+**Version 2.0:** — Institutional Release  
+**Company:** NADD Labs (Pty) Ltd. (https://nadd.io)       
+**Interface Layer:** NADD Pay (https://pay.nadd.io)   
+**Date:** May 3, 2026   
 
-NADD Pay operates strictly as an access and orchestration layer within the NADD system. NADD Pay does not create, issue, redeem, or guarantee NADD, does not control monetary supply, and does not operate as a deposit-taking institution, a bank, or a central bank digital currency (CBDC). All value representation, accounting, and settlement are governed by the NADD core system, including its smart contracts, reserve framework, and policy controls.
-
-Transactions executed via NADD Pay are subject to system rules, risk controls, and audit requirements. The system is designed to provide deterministic execution, full traceability, and reconciliation against both internal ledgers and on-chain records.
+This document reflects the production-aligned architecture and control model of NADD Pay as implemented within the NADD ecosystem.
 
 ---
 
-## 1. INTRODUCTION
+## 2. INTRODUCTION
 
-Digital financial systems have advanced the programmability and verifiability of value; however, user access to such systems remains constrained by interface complexity and operational fragmentation. NADD Pay is designed to address this constraint by providing a messaging-native interface that allows users to interact with the NADD system through WhatsApp while preserving strict control over transaction execution, accounting, and settlement.
+Digital financial systems have advanced the programmability and verifiability of value; however, user access to such systems remains constrained by interface complexity and operational fragmentation. NADD Pay is designed to address this constraint by providing a messaging-native interface that allows users to interact with the Namibia Digital Dollar (NADD) system through WhatsApp while preserving strict control over transaction execution, accounting, and settlement.
 
 NADD Pay is not an independent financial system. It is a service interface of NADD that translates user intent, expressed via a messaging channel, into controlled financial operations executed within the NADD system. The design enforces separation between user interaction and monetary logic. User-facing workflows are mediated by a deterministic backend, while value creation, accounting, and settlement remain anchored in NADD’s core infrastructure.
 
 ---
 
-## 2. DEFINITIONS
+## 3. LEGAL AND REGULATORY NOTICE
 
-For the purposes of this document, the following terms are used with precise meanings:
+NADD Pay is an execution interface for interacting with the Namibia Digital Dollar (NADD). It does not constitute a financial institution, does not accept deposits, does not issue legal tender, and does not operate as a banking entity.
 
-- NADD refers to the Namibia Digital Dollar, a blockchain-native token pegged 1:1 to the Namibian Dollar (NAD) and backed 100% by the NADD Reserve Model, implemented on BNB Smart Chain and governed by defined issuance, reserve, and control mechanisms.
+NADD is a privately issued, blockchain-native digital representation of value referencing the Namibian Dollar (NAD) on 1:1 parity value and backed 100% by the NADD Reserve Model. NADD Pay does not create, mint, or independently manage NADD supply. All financial authority, including issuance, settlement, and reserve logic, resides within the NADD system.
 
- - NADD Pay refers to the WhatsApp-native service interface that provides controlled access to NADD transaction capabilities. NADD Pay is not a currency system and does not operate independently of NADD.
+NADD Pay functions solely as a controlled interface that translates user instructions into structured financial operations executed within the NADD system.
 
-- User refers to a natural or legal person interacting with NADD Pay via WhatsApp.
-
-- Wallet refers to an internal account within the NADD Pay ledger system that records balances derived from double-entry accounting.
-
-- Ledger refers to the authoritative internal accounting system that records all financial movements using a double-entry model.
-
-- Settlement refers to the finalization of value transfer, either internally within the ledger or externally via blockchain transactions.
-
-- Conversion refers to the deterministic transformation of NADD-denominated value into another asset (e.g., USDT) under a defined rate and policy framework.
-
-- Outbox refers to a controlled mechanism by which blockchain-bound transactions are staged, validated, and broadcast.
+Use of NADD Pay is subject to applicable laws, operational controls, and system governance policies.
 
 ---
 
-## 3. SYSTEM POSITIONING AND BOUNDARY
+## 4. EXECUTIVE SUMMARY
+
+NADD Pay is the WhatsApp-native access layer for the Namibia Digital Dollar (NADD), enabling users to send, receive, and transact with NADD through a familiar messaging interface while maintaining full integration with NADD’s underlying financial infrastructure.
+
+The system is designed to solve a critical accessibility constraint in digital finance: the requirement for specialized applications or technical knowledge to interact with blockchain-based financial systems. By embedding transaction capability directly within WhatsApp, NADD Pay enables broad accessibility without compromising financial control, auditability, or system integrity.
+
+All interactions initiated through NADD Pay are processed within a controlled backend environment. The messaging layer serves only as a communication channel. It does not execute financial logic and does not maintain financial state.
+
+Transactions initiated through NADD Pay follow a deterministic execution model governed by:
+
+- strict validation rules  
+- controlled transaction orchestration  
+- double-entry accounting enforcement  
+- risk classification and escalation  
+- auditable state transitions  
+- deterministic settlement procedures  
+
+The system ensures that every financial operation is:
+
+- atomic  
+- consistent  
+- auditable  
+- reversible under defined conditions  
+- traceable across internal and external systems  
+
+NADD Pay does not alter the financial integrity of the NADD system. Instead, it provides a controlled, user-friendly interface that preserves all underlying guarantees while expanding accessibility.
+
+---
+
+## 5. DEFINITION OF TERMS
+
+For the purposes of this document, the following terms are defined precisely.
+
+NADD  
+The Namibia Digital Dollar, a blockchain-native digital unit referencing the Namibian Dollar, governed by a defined issuance, reserve, and settlement framework.
+
+NADD Pay  
+The WhatsApp-native execution interface that enables user interaction with the NADD system. It does not hold funds or perform settlement independently.
+
+User  
+An individual or entity interacting with the NADD system via NADD Pay.
+
+Wallet  
+An internal ledger account representing a user’s position within the NADD system. Wallet balances are derived from ledger entries and do not exist independently.
+
+Ledger  
+The authoritative accounting system maintaining all financial records under a double-entry model.
+
+Transaction  
+A discrete financial operation executed within the system, including transfers, withdrawals, conversions, and merchant payments.
+
+Settlement  
+The process by which financial value is finalized, either internally within the ledger or externally via blockchain or liquidity rails.
+
+Conversion  
+The deterministic transformation of NADD into another asset, such as USDT, based on a predefined rate and fee structure.
+
+Manual Review  
+A control mechanism requiring administrative approval for transactions exceeding defined risk thresholds.
+
+Reversal  
+A compensating transaction that restores ledger integrity following a failed or rejected operation.
+
+Idempotency  
+A system property ensuring that repeated execution of the same request produces no additional financial effect.
+
+Internal Balance  
+A computed value derived from ledger entries representing a user’s position within the system.
+
+External Settlement  
+The transfer of value outside the internal ledger, typically via blockchain execution.
+
+---
+
+## 6. PURPOSE AND SCOPE
+
+This document provides a comprehensive technical and operational specification of NADD Pay as an execution interface within the NADD ecosystem.
+
+It defines:
+
+- system architecture and boundaries  
+- transaction lifecycle and state enforcement  
+- ledger and accounting integrity  
+- risk and control frameworks  
+- external settlement integration  
+- audit and reporting mechanisms  
+
+The scope of this document is limited to NADD Pay and its interaction with the NADD system. It does not redefine the NADD protocol itself.
+
+---
+
+## 7. RELATIONSHIP BETWEEN NADD AND NADD PAY
+
+NADD Pay operates strictly as an interface layer.
+
+The NADD system is responsible for:
+
+- value representation  
+- ledger integrity  
+- issuance and settlement logic  
+- financial state management  
+
+NADD Pay is responsible for:
+
+- user interaction via WhatsApp  
+- session and instruction management  
+- transaction initiation  
+- communication of outcomes  
+
+This separation ensures that user interface concerns do not compromise financial system integrity.
+
+---
+
+## 8. SYSTEM CLASSIFICATION
+
+NADD Pay is classified as:
+
+"An execution interface within a blockchain-integrated financial system"
+
+It is not classified as:
+
+- a bank  
+- a payment institution holding deposits  
+- a central bank digital currency  
+- an independent financial system  
+
+All financial authority remains within the NADD system.
+
+---
+
+## 9. INSTITUTIONAL CONTEXT
+
+NADD Pay is designed to operate within a controlled financial infrastructure environment where:
+
+- all financial activity is recorded in a double-entry ledger  
+- all transactions are subject to deterministic validation  
+- all external interactions are mediated through controlled settlement processes  
+- all actions are auditable and attributable  
+
+The system is structured to support:
+
+- regulatory review  
+- institutional due diligence  
+- audit and assurance processes  
+
+It aligns with principles commonly required for financial system evaluation, including traceability, integrity, and operational control.
+
+---
+
+## 10. SYSTEM POSITIONING AND BOUNDARY
 
 NADD Pay is positioned as a service interface within the NADD system. It does not extend beyond this boundary.
 
@@ -84,7 +221,7 @@ Responsibility is strictly confined to the internal domain. External systems are
 
 ---
 
-## 4. ARCHITECTURE
+## 11. ARCHITECTURE
 
 The architecture separates interface, orchestration, accounting, and settlement into independent layers to preserve determinism and auditability.
 
@@ -100,7 +237,6 @@ INITIAL → manual_review → approved → pending
                    rejected → reversed
 
 ```
-
 
 State definitions:
 
@@ -118,7 +254,7 @@ State definitions:
 
 ---
 
-## 6. TRANSACTION EXECUTION MODEL
+## 12. TRANSACTION EXECUTION MODEL
 
 Transaction execution follows a strict lifecycle:
 
@@ -135,14 +271,58 @@ Execution is atomic. Partial completion is not permitted.
 
 ---
 
-## 7. LEDGER AND ACCOUNTING MODEL
+## 13. MESSAGE PROCESSING FLOW
+
+All interactions originate as user messages and are transformed into structured financial instructions through a controlled execution pipeline.
+
+```
+User -> WhatsApp -> Meta API -> Webhook -> Backend -> Response
+
+```
+
+## 14. INTERNAL EXECUTION ARCHITECTURE
+
+```
++------------------------------+
+| Webhook Controller           |
++------------------------------+
+             |
+             v
++------------------------------+
+| Session and Intent Resolver  |
++------------------------------+
+             |
+             v
++------------------------------+
+| Transaction Engine           |
++------------------------------+
+       |               |
+       v               v
++--------------+   +----------------+
+| Ledger       |   | Risk Engine    |
++--------------+   +----------------+
+       |
+       v
++------------------------------+
+| Blockchain Outbox            |
++------------------------------+
+       |
+       v
++------------------------------+
+| External Settlement          |
++------------------------------+
+
+```
+
+## 15. LEDGER AND ACCOUNTING MODEL
 
 The ledger is the authoritative record of financial state.
 
 All transactions are recorded as double-entry postings. For every debit, a corresponding credit exists. No transaction may violate the invariant:
 
+```
 SUM(debits) = SUM(credits)    
-
+```
 
 Balances are derived, not stored as independent truth.
 
@@ -155,9 +335,23 @@ System accounts are used to represent:
 
 Reconciliation is performed against blockchain settlement records where applicable.
 
+## 16. TRANSACTION STATE MODEL
+
+```
+INITIAL -> pending -> broadcasting -> completed
+                      |
+                      v
+                   failed -> reversed
+
+INITIAL -> manual_review -> approved -> pending
+                      |
+                      v
+                   rejected -> reversed
+
+```
 ---
 
-## 8. CONVERSION FRAMEWORK
+## 17. CONVERSION FRAMEWORK
 
 Conversion between NADD and external assets (e.g., USDT) is governed by a deterministic model.
 
@@ -177,7 +371,7 @@ This ensures price integrity and prevents race conditions.
 
 ---
 
-## 9. RISK MANAGEMENT
+## 18. RISK MANAGEMENT
 
 Risk evaluation is performed prior to execution.
 
@@ -195,13 +389,12 @@ Transaction → Risk Engine
       |             |
 auto-approved   manual_review
 
-
 Manual review requires explicit administrative approval before execution.
 
 ```
 ---
 
-## 10. FAILURE AND REVERSAL MODEL
+## 19. FAILURE AND REVERSAL MODEL
 
 Failures are handled deterministically.
 
@@ -222,7 +415,7 @@ Reversal operations are recorded as independent transactions, preserving audit i
 
 ---
 
-## 11. SECURITY MODEL
+## 20. SECURITY MODEL
 
 Security is enforced across all layers.
 
@@ -239,7 +432,7 @@ Private key access is restricted and disabled by default.
 
 ---
 
-## 12. WHATSAPP INTEGRATION
+## 21. WHATSAPP INTEGRATION
 
 WhatsApp serves exclusively as a transport interface.
 
@@ -247,7 +440,6 @@ WhatsApp serves exclusively as a transport interface.
 User → WhatsApp → Meta API → Webhook → Backend → Response
 
 ```
-
 
 The system enforces:
 
@@ -259,7 +451,7 @@ Duplicate or replayed messages are rejected.
 
 ---
 
-## 13. DATA INTEGRITY AND CONSISTENCY
+## 22. DATA INTEGRITY AND CONSISTENCY
 
 All operations are executed under SERIALIZABLE isolation.
 
@@ -276,7 +468,7 @@ Idempotency keys ensure that repeated requests do not produce duplicate effects.
 
 ---
 
-## 14. GOVERNANCE AND CONTROLS
+## 23. GOVERNANCE AND CONTROLS
 
 Administrative access is role-based.
 
@@ -291,7 +483,7 @@ All administrative actions are logged and subject to audit.
 
 ---
 
-## 15. REGULATORY POSITIONING
+## 24. REGULATORY POSITIONING
 
 NADD Pay operates as a controlled access interface within the NADD system.
 
@@ -305,7 +497,7 @@ It provides a structured mechanism for interacting with NADD under controlled co
 
 ---
 
-## 16. CONCLUSION
+## 25. CONCLUSION
 
 NADD Pay is a service interface that enables controlled interaction with the Namibia Digital Dollar through a messaging-native channel. By enforcing deterministic execution, strict accounting, and clear system boundaries, it provides a scalable and auditable mechanism for real-time financial operations without compromising the integrity of the underlying monetary system.
 
